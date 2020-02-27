@@ -13,49 +13,55 @@ namespace BeyondTheEndOftheWorld
 {
   public class IncidentWorker_RiftOpening : IncidentWorker
   {
-    protected virtual int CountToSpawn
-    {
-      get
-      {
-        return 1;
-      }
-    }
+		// Token: 0x17000001 RID: 1
+		// (get) Token: 0x06000004 RID: 4 RVA: 0x000020DC File Offset: 0x000002DC
+		protected virtual int CountToSpawn
+		{
+			get
+			{
+				return 1;
+			}
+		}
 
-    protected virtual bool CanFireNowSub(IncidentParms parms)
-    {
-      return ((ListerThings) ((Map) parms.target).listerThings).ThingsOfDef(DefDatabase<ThingDef>.GetNamed("RiftGeyser", true)).Count <= 0;
-    }
+		// Token: 0x06000005 RID: 5 RVA: 0x000020F0 File Offset: 0x000002F0
+		protected override bool CanFireNowSub(IncidentParms parms)
+		{
+			Map map = (Map)parms.target;
+			return map.listerThings.ThingsOfDef(DefDatabase<ThingDef>.GetNamed("RiftGeyser", true)).Count <= 0;
+		}
 
-    protected virtual bool TryExecuteWorker(IncidentParms parms)
-    {
-      Map target = (Map) parms.target;
-      int num = 0;
-      int countToSpawn = this.CountToSpawn;
-      List<TargetInfo> targetInfoList = new List<TargetInfo>();
-      IntVec3 intVec3;
-      for (int index = 0; index < countToSpawn && CellFinderLoose.TryFindSkyfallerCell((ThingDef) ThingDefOf.CrashedShipPartIncoming, target, ref intVec3, 14, (IntVec3) null, -1, false, false, false, false, false, false, (Predicate<IntVec3>) null); ++index)
-      {
-        Building_CrashedShipPart buildingCrashedShipPart = (Building_CrashedShipPart) ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("RiftGeyser", true), (ThingDef) null);
-        GenSpawn.Spawn((Thing) SkyfallerMaker.MakeSkyfaller((ThingDef) ThingDefOf.CrashedShipPartIncoming, (Thing) buildingCrashedShipPart), intVec3, target, (WipeMode) 0);
-        ++num;
-        targetInfoList.Add(new TargetInfo(intVec3, target, false));
-      }
-      if (num > 0)
-        this.SendStandardLetter(LookTargets.op_Implicit(targetInfoList), (Faction) null, new string[0]);
-      return num > 0;
-    }
+		// Token: 0x06000006 RID: 6 RVA: 0x00002130 File Offset: 0x00000330
+		protected override bool TryExecuteWorker(IncidentParms parms)
+		{
+			Map map = (Map)parms.target;
+			int num = 0;
+			int countToSpawn = this.CountToSpawn;
+			List<TargetInfo> list = new List<TargetInfo>();
+			for (int i = 0; i < countToSpawn; i++)
+			{
+				IntVec3 intVec;
+				bool flag = !CellFinderLoose.TryFindSkyfallerCell(ThingDefOf.CrashedShipPartIncoming, map, out intVec, 14, default(IntVec3), -1, false, false, false, false, false, false, null);
+				if (flag)
+				{
+					break;
+				}
+				Building_SteamGeyser innerThing = (Building_SteamGeyser)ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("RiftGeyser", true), null);
+				Skyfaller newThing = SkyfallerMaker.MakeSkyfaller(ThingDefOf.CrashedShipPartIncoming, innerThing);
+				GenSpawn.Spawn(newThing, intVec, map, WipeMode.Vanish);
+				num++;
+				list.Add(new TargetInfo(intVec, map, false));
+			}
+			bool flag2 = num > 0;
+			if (flag2)
+			{
+				base.SendStandardLetter(list, null, "A mysterious drop pod just crashed, quickly consumed by some sort of gap.\nWhaveter this space is, it is not safe to be near.", LetterDefOf.ThreatBig);
+			}
+			return num > 0;
+		}
 
-    public IncidentWorker_RiftOpening()
-    {
-      base.\u002Ector();
-    }
-
-    public class Hediff_QuantumContact : HediffWithComps
-    {
-      public Hediff_QuantumContact()
-      {
-        base.\u002Ector();
-      }
-    }
-  }
+		// Token: 0x02000004 RID: 4
+		public class Hediff_QuantumContact : HediffWithComps
+		{
+		}
+	}
 }
