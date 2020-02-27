@@ -54,7 +54,7 @@ namespace BeyondTheEndOftheWorld
 			bool flag2 = num > 0;
 			if (flag2)
 			{
-				base.SendStandardLetter(list, null, "A mysterious drop pod just crashed, quickly consumed by some sort of gap.\nWhaveter this space is, it is not safe to be near.", LetterDefOf.ThreatBig);
+				base.SendStandardLetter(list, null, "A mysterious drop pod just crashed, quickly consumed by some sort of gap.\nWhaveter this space is, it is not safe to be near.", LetterDefOf.ThreatMedium);
 			}
 			return num > 0;
 		}
