@@ -27,10 +27,6 @@
 			</sowTags>
 			<topWindExposure>0.1</topWindExposure>
       <immatureGraphicPath>Things/Plant/Xayhir_Immature</immatureGraphicPath>
-			<visualSizeRange>
-        <min>3</min>
-        <max>4</max>
-      </visualSizeRange>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
     </plant>
