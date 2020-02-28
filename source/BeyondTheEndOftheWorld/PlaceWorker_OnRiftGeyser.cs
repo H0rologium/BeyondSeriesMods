@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: BeyondTheEndOftheWorld.PlaceWorker_OnRiftGeyser
-// Assembly: BeyondTheEndOftheWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: F9E32187-6B99-46B5-AEB8-149D10156F48
-// Assembly location: C:\Users\emurphy\git\BeyondTheEndOfTheWorld\beyondTheEndOfTheWorld\Assemblies\BeyondTheEndOftheWorld.dll
-
-using Verse;
+﻿using Verse;
 
 namespace BeyondTheEndOftheWorld
 {

@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: BeyondTheEndOftheWorld.IncidentWorker_RiftOpening
-// Assembly: BeyondTheEndOftheWorld, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: F9E32187-6B99-46B5-AEB8-149D10156F48
-// Assembly location: C:\Users\emurphy\git\BeyondTheEndOfTheWorld\beyondTheEndOfTheWorld\Assemblies\BeyondTheEndOftheWorld.dll
-
-using RimWorld;
+﻿using RimWorld;
 using System;
 using System.Collections.Generic;
 using Verse;
@@ -54,7 +48,7 @@ namespace BeyondTheEndOftheWorld
 			bool flag2 = num > 0;
 			if (flag2)
 			{
-				base.SendStandardLetter(list, null, "A mysterious drop pod just crashed, quickly consumed by some sort of gap.\nWhaveter this space is, it is not safe to be near.", LetterDefOf.ThreatMedium);
+				base.SendStandardLetter(null, list, "A mysterious drop pod just crashed, quickly consumed by some sort of gap.\nWhaveter this space is, it is not safe to be near.", LetterDefOf.ThreatBig);
 			}
 			return num > 0;
 		}
