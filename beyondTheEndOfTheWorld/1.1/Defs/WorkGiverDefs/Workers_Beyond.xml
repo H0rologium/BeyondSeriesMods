@@ -16,8 +16,6 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
-</Defs>
-<Defs>
   <WorkGiverDef>
     <defName>DoResearchBeyondTable</defName>
     <label>do research at the beyond table</label>
