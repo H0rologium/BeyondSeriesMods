@@ -17,3 +17,20 @@
     </requiredCapacities>
   </WorkGiverDef>
 </Defs>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoResearchBeyondTable</defName>
+    <label>do research at the beyond table</label>
+    <giverClass>WorkGiver_Researcher</giverClass>
+    <workType>Research</workType>
+    <priorityInType>50</priorityInType>
+    <fixedBillGiverDefs>
+      <li>BeyondTechResearchBench</li>
+    </fixedBillGiverDefs>
+    <verb>research</verb>
+    <gerund>researching at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

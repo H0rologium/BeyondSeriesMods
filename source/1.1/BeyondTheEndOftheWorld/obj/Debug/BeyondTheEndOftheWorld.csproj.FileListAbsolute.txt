@@ -5,3 +5,4 @@ C:\Users\horo\git\BeyondTheEndOfTheWorld\source\BeyondTheEndOftheWorld\obj\Debug
 C:\Users\horo\git\BeyondTheEndOfTheWorld\source\1.1\BeyondTheEndOftheWorld\obj\Debug\BeyondTheEndOftheWorld.csprojAssemblyReference.cache
 C:\Users\horo\git\BeyondTheEndOfTheWorld\source\1.1\BeyondTheEndOftheWorld\obj\Debug\BeyondTheEndOftheWorld.csproj.CopyComplete
 C:\Users\horo\git\BeyondTheEndOfTheWorld\source\1.1\BeyondTheEndOftheWorld\obj\Debug\BeyondTheEndOftheWorld.dll
+C:\Users\horo\git\BeyondTheEndOfTheWorld\source\build\BeyondTheEndOftheWorld.dll

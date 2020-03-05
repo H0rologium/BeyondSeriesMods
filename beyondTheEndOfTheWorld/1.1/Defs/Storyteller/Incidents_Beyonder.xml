@@ -11,7 +11,7 @@
     <letterText>An escape pod with some sort of quantum manipulator seems to have landed nearby, and left behind a rift in reality.</letterText>
     <letterDef>ThreatBig</letterDef>
     <baseChance>2.0</baseChance>
-    <minRefireDays>1000000</minRefireDays>
+    <minRefireDays>100</minRefireDays>
     <category>Misc</category>
   </IncidentDef>
   _________________________________________________________
@@ -24,8 +24,8 @@
     <workerClass>IncidentWorker_ManhunterPack</workerClass>
     <baseChance>2.0</baseChance>
     <category>ThreatBig</category>
-    <minRefireDays>8</minRefireDays>
-    <pointsScaleable>false</pointsScaleable>
+    <minRefireDays>20</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
     <tale>RiftWalkerPack</tale>
   </IncidentDef>
   _________________________________________________________

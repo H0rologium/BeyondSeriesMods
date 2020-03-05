@@ -39,8 +39,8 @@ namespace BeyondTheEndOftheWorld
 					break;
 				}
 				Building_SteamGeyser innerThing = (Building_SteamGeyser)ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("RiftGeyser", true), null);
-				Skyfaller newThing = SkyfallerMaker.MakeSkyfaller(ThingDefOf.CrashedShipPartIncoming, innerThing);
-				GenSpawn.Spawn(newThing, intVec, map, WipeMode.Vanish);
+				//Skyfaller newThing = SkyfallerMaker.MakeSkyfaller(ThingDefOf.CrashedShipPartIncoming);//, innerThing
+				GenSpawn.Spawn(innerThing, intVec, map, WipeMode.Vanish);
 				num++;
 				list.Add(new TargetInfo(intVec, map, false));
 			}
