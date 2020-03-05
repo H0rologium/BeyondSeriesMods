@@ -24,7 +24,7 @@ ______________________________________________________________
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>
+    <tickerType>Never</tickerType>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsPower</li>

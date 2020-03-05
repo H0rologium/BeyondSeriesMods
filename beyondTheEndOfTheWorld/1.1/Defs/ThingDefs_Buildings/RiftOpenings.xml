@@ -17,7 +17,7 @@
     <destroyable>false</destroyable>
     <useHitPoints>false</useHitPoints>
     <tickerType>Normal</tickerType>
-    <selectable>true</selectable>
+    <selectable>false</selectable>
     <size>(2,2)</size>
     <neverOverlapFloors>true</neverOverlapFloors>
     <blockPlants>true</blockPlants>
