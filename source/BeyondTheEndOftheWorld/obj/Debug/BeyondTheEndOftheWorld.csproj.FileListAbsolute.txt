@@ -1,4 +1,0 @@
-C:\Users\horo\git\BeyondTheEndOfTheWorld\source\BeyondTheEndOftheWorld\obj\Debug\BeyondTheEndOftheWorld.csprojAssemblyReference.cache
-C:\Users\horo\git\BeyondTheEndOfTheWorld\beyondTheEndOfTheWorld\Assemblies\BeyondTheEndOftheWorld.dll
-C:\Users\horo\git\BeyondTheEndOfTheWorld\source\BeyondTheEndOftheWorld\obj\Debug\BeyondTheEndOftheWorld.csproj.CopyComplete
-C:\Users\horo\git\BeyondTheEndOfTheWorld\source\BeyondTheEndOftheWorld\obj\Debug\BeyondTheEndOftheWorld.dll
