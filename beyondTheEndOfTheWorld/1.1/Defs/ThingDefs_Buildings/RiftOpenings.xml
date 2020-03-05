@@ -5,7 +5,7 @@
     <defName>RiftGeyser</defName>
     <label>rift opening</label>
     <description>A quantum fluctuation has caused this spot to be opened to supernatural energies. Perhaps we should leave it alone.</description>
-    <thingClass>Building</thingClass>
+    <thingClass>Building_SteamGeyser</thingClass>
     <graphicData>
       <texPath>Things/Building/RiftGeyser</texPath>
       <graphicClass>Graphic_Single</graphicClass>

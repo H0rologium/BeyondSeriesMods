@@ -5,8 +5,8 @@ using Verse;
 
 namespace BeyondTheEndOftheWorld
 {
-  public class IncidentWorker_RiftOpening : IncidentWorker
-  {
+	public class IncidentWorker_RiftOpening : IncidentWorker
+	{
 		// Token: 0x17000001 RID: 1
 		// (get) Token: 0x06000004 RID: 4 RVA: 0x000020DC File Offset: 0x000002DC
 		protected virtual int CountToSpawn
@@ -33,9 +33,8 @@ namespace BeyondTheEndOftheWorld
 			List<TargetInfo> list = new List<TargetInfo>();
 			for (int i = 0; i < countToSpawn; i++)
 			{
-				IntVec3 intVec;
-				bool flag = !CellFinderLoose.TryFindSkyfallerCell(ThingDefOf.CrashedShipPartIncoming, map, out intVec, 14, default(IntVec3), -1, false, false, false, false, false, false, null);
-				if (flag)
+				bool flag = CellFinderLoose.TryFindSkyfallerCell(ThingDefOf.CrashedShipPartIncoming, map, out IntVec3 intVec, 14, default, -1, false, false, false, false, false, false, null);
+				if (!flag)
 				{
 					break;
 				}
@@ -48,7 +47,7 @@ namespace BeyondTheEndOftheWorld
 			bool flag2 = num > 0;
 			if (flag2)
 			{
-				base.SendStandardLetter(null, list, "A mysterious drop pod just crashed, quickly consumed by some sort of gap.\nWhaveter this space is, it is not safe to be near.", LetterDefOf.ThreatBig);
+				base.SendStandardLetter(parms, list, "A mysterious drop pod just crashed, quickly consumed by some sort of gap.\nWhaveter this space is, it is not safe to be near.", LetterDefOf.ThreatBig);
 			}
 			return num > 0;
 		}
