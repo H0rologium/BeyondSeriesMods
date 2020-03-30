@@ -15,7 +15,7 @@ ________________________________________________________________________________
     <soundDrop>Silver_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <MarketValue>3000</MarketValue>
+      <MarketValue>0</MarketValue>
       <Mass>0.033</Mass>
       <SharpDamageMultiplier>6</SharpDamageMultiplier>
       <BluntDamageMultiplier>1</BluntDamageMultiplier>
