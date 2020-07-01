@@ -21,7 +21,7 @@
       <BedRestEffectiveness>0.6</BedRestEffectiveness>
       <Comfort>-0.50</Comfort>
       <ImmunityGainSpeedFactor>3</ImmunityGainSpeedFactor>
-      <MedicalTendQualityOffset>1.0</MedicalTendQualityOffset>
+      <MedicalTendQualityOffset>0.80</MedicalTendQualityOffset>
 			<SurgerySuccessChanceFactor>10</SurgerySuccessChanceFactor>
 		</statBases>
 		<tickerType>Normal</tickerType>

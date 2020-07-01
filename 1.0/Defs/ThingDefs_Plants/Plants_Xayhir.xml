@@ -6,7 +6,7 @@
     <description>A weird plant that came out of the ship lab during the crash. Having no natural predators seeds found their way around the Rimworld.\nWho knows what consumption does to the body...</description>
     <statBases>
       <MaxHitPoints>115</MaxHitPoints>
-      <Nutrition>2.0</Nutrition>
+      <Nutrition>0.99</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Xayhir</texPath>
@@ -27,6 +27,10 @@
 			</sowTags>
 			<topWindExposure>0.1</topWindExposure>
       <immatureGraphicPath>Things/Plant/Xayhir_Immature</immatureGraphicPath>
+			<visualSizeRange>
+        <min>3</min>
+        <max>4</max>
+      </visualSizeRange>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
     </plant>

@@ -160,7 +160,7 @@ ________________________________________________________________________________
 		<ThingDef ParentName="BenchBase">
     <defName>RiftHarvester</defName>
     <label>rift matter condensor</label>
-    <description>A station capable of turning quantum energy into pure matter. This process is extremely unstable and dangerous. Must be built on a Rift. Explodes in a radius of 20 if destroyed</description>
+    <description>A station capable of turning quantum energy into pure matter. This process is extremely unstable and dangerous. Must be built on a Rift.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Building/RiftHarvester</texPath>
@@ -180,7 +180,7 @@ ________________________________________________________________________________
     <constructEffect>ConstructMetal</constructEffect>
 	 <costList>
       <Plasteel>100</Plasteel>
-      <ComponentSpacer>5</ComponentSpacer>
+      <ComponentSpacer>15</ComponentSpacer>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
@@ -231,7 +231,7 @@ ________________________________________________________________________________
         <requiresPower>false</requiresPower>
         <thingToSpawn>TimeElement</thingToSpawn>
         <spawnCount>1</spawnCount>
-        <spawnIntervalRange><min>75000</min><max>150000</max></spawnIntervalRange>
+        <spawnIntervalRange><min>200000</min><max>300000</max></spawnIntervalRange>
         <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
         <showMessageIfOwned>true</showMessageIfOwned>
       </li>

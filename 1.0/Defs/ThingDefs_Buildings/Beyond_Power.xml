@@ -24,7 +24,7 @@ ______________________________________________________________
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.40</fillPercent>
-    <tickerType>Never</tickerType>
+    <tickerType>Normal</tickerType>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsPower</li>
@@ -43,7 +43,7 @@ ______________________________________________________________
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>750</storedEnergyMax>
+        <storedEnergyMax>700</storedEnergyMax>
         <efficiency>0.65</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -101,7 +101,7 @@ ______________________________________________________________
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>850</storedEnergyMax>
+        <storedEnergyMax>750</storedEnergyMax>
         <efficiency>0.8</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -159,7 +159,7 @@ ______________________________________________________________
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>950</storedEnergyMax>
+        <storedEnergyMax>808</storedEnergyMax>
         <efficiency>0.95</efficiency>
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
@@ -181,7 +181,7 @@ ______________________________________________________________
   <ThingDef ParentName="BuildingBase">
     <defName>QuantumBattery</defName>
     <label>quantum battery</label>
-    <description>Stores electricity for later use. Uses quantum mechanics to store an entire energy factory within a small area. Explodes in a radius of 7 when destroyed.</description>
+    <description>Stores electricity for later use. Uses quantum mechanics to store an entire energy factory within a small area.</description>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
       <texPath>Things/Building/QuantumBattery</texPath>

@@ -15,7 +15,7 @@ ________________________________________________________________________________
     <soundDrop>Silver_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <MarketValue>20</MarketValue>
+      <MarketValue>3000</MarketValue>
       <Mass>0.033</Mass>
       <SharpDamageMultiplier>6</SharpDamageMultiplier>
       <BluntDamageMultiplier>1</BluntDamageMultiplier>
@@ -45,7 +45,7 @@ ________________________________________________________________________________
         <Beauty>20</Beauty>
         <MeleeWeapon_CooldownMultiplier>9</MeleeWeapon_CooldownMultiplier>
       </statFactors>
-     
+      <smeltable>false</smeltable>
     </stuffProps>
 	<comps>
 	<li Class="CompProperties_Rottable">
