@@ -190,52 +190,7 @@ __________________________________________________________________________
     </fixedIngredientFilter>
 	<researchPrerequisite>AdvancedMedicalCrafting</researchPrerequisite>
   </RecipeDef>
-  __________________________________________________________________________
-  
-  <RecipeDef>
-    <defName>MakePsychicLance</defName>
-    <label>replicate psychic lances</label>
-    <description>You are able to recreate the psychic lance using quantum mechanics</description>
-    <jobString>Clone Psychic Lance</jobString>
-    <workAmount>6000</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
-    <effectWorking>Smelt</effectWorking>
-    <soundWorking>Recipe_Smelt</soundWorking>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PsychicInsanityLance</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-	  <li>
-	  <filter>
-	  <thingDefs>
-	  <li>TimeElement</li>
-	  </thingDefs>
-	  </filter>
-	  <count>0.2</count>
-	  </li>
-    </ingredients>
-    <!-- Switched to standard products so we can do "do until you have X"
-    <specialProducts>
-      <li>Smelted</li>
-    </specialProducts>-->
-    <products>
-      <PsychicInsanityLance>2</PsychicInsanityLance>
-    </products>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PsychicInsanityLance</li>
-		<li>TimeElement</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-	<researchPrerequisite>PsychicCrafting</researchPrerequisite>
-  </RecipeDef>
-  __________________________________________________________________________
-  
+ 
     <RecipeDef>
     <defName>MakePsychicAnimalPulsar</defName>
     <label>replicate psychic animal pulsars</label>
@@ -322,7 +277,4 @@ __________________________________________________________________________
     </fixedIngredientFilter>
 	<researchPrerequisite>PsychicCrafting</researchPrerequisite>
   </RecipeDef>
-  __________________________________________________________________________
-  
-  
 </Defs>

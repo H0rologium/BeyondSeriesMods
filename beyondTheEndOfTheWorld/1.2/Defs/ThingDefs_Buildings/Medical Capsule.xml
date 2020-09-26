@@ -58,7 +58,7 @@
     <staticSunShadowHeight>0.17</staticSunShadowHeight>
     <researchPrerequisites>
       <li>HospitalBed</li>
-	  <li>HealingPods</li>
+	  <li>HealingCryoPods</li>
 	  <li>ShipCryptosleep</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>

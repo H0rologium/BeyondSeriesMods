@@ -9,7 +9,7 @@
  <ResearchProjectDef>
     <defName>BeyonderTechBench</defName>
     <label>beyonder technology</label>
-	<tab>Main</tab>
+	<tab>BTEOTW</tab>
     <description>Allows construction of a machine that allows an individual to open their mind to the quantum realm, teaching advanced technologies.</description>
     <baseCost>3000</baseCost>
     <techLevel>Archotech</techLevel>
@@ -18,10 +18,9 @@
       <li>ShipSensorCluster</li>
     </prerequisites>
 	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>18</researchViewX>
-    <researchViewY>3</researchViewY>
-	<discoveredLetterTitle>The Gateway</discoveredLetterTitle>
-    <discoveredLetterText>You have done it. You have gone beyond the end of the world.</discoveredLetterText>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5</researchViewY>
+
     
   </ResearchProjectDef>
   
@@ -155,7 +154,7 @@
   
   
  <ResearchProjectDef>
-  <defName>HealingPods</defName>
+  <defName>HealingCryoPods</defName>
   <label>Medical Cryo Pods</label>
   <tab>Main</tab>
   <description>Allows you to build medical cryo pods for better healing.</description>
@@ -167,24 +166,10 @@
   </prerequisites>
   <requiredResearchBuilding>BeyondTechResearchBench</requiredResearchBuilding>
   <researchViewX>16</researchViewX>
-  <researchViewY>0</researchViewY>
+  <researchViewY>2.5</researchViewY>
   </ResearchProjectDef>
   
-  
- <ResearchProjectDef>
-  <defName>PsychicCrafting</defName>
-  <label>Psychic Crafting Mechanics</label>
-  <tab>BTEOTW</tab>
-  <description>Allows you to create tools that mess with the mind.</description>
-  <baseCost>6000</baseCost>
-  <techLevel>Archotech</techLevel>
-  <prerequisites>
-      <li>CrystalProduction</li>
-  </prerequisites>
-  <requiredResearchBuilding>BeyondTechResearchBench</requiredResearchBuilding>
-  <researchViewX>4</researchViewX>
-  <researchViewY>1</researchViewY>
-  </ResearchProjectDef>
+
   
    <ResearchProjectDef>
   <defName>AdvancedMedicalCrafting</defName>
@@ -202,6 +187,20 @@
   <researchViewY>1</researchViewY>
   </ResearchProjectDef>
   
+  <ResearchProjectDef>
+  <defName>PsychicCrafting</defName>
+  <label>Psychic Crafting Mechanics</label>
+  <tab>BTEOTW</tab>
+  <description>Allows you to create tools that mess with the mind.</description>
+  <baseCost>6000</baseCost>
+  <techLevel>Archotech</techLevel>
+  <prerequisites>
+      <li>CrystalProduction</li>
+  </prerequisites>
+  <requiredResearchBuilding>BeyondTechResearchBench</requiredResearchBuilding>
+  <researchViewX>5</researchViewX>
+  <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
   
   
   </Defs>
