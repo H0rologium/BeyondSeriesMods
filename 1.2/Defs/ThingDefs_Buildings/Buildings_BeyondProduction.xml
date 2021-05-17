@@ -118,6 +118,7 @@ ________________________________________________________________________________
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
     <recipes>
      <li>CreateCrystal</li>
+	 <li>CreateFullCrystal</li>
 	 <li>CreateOrbital</li>
 	 <li>MakeMechHealer</li>
 	 <li>MakeMechResurrector</li>
