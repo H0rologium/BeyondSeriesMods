@@ -1,4 +1,0 @@
-DotPeek is a great program that allows you to view and decompile DLL files. This allows us to troubleshoot runtime issues.
-
-DnSpy is an amazing program that lets us view the contents of DLL files. This is not only how we can look at rimworld source code but make sure that our decompiled dlls did not have any
-unexpected changes. 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+		<defName>AncientTerminalQuantSegment</defName>
+		<label>ancient terminal segment</label>
+		<description>The remains of some sort of computer terminal. How did it end up all the way out here?</description>
+		<rotatable>false</rotatable>
+		<graphicData>
+		  <texPath>Things/Building/Ruins/ancientterminal</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>(2,1)</drawSize>
+		  <shadowData>
+			<volume>(1, 1, 0.4)</volume>
+			<offset>(-0.2,0,-0.2)</offset>
+		  </shadowData>
+		</graphicData>
+		<size>(2,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+		  <MaxHitPoints>2000</MaxHitPoints>
+		</statBases>
+		<killedLeavings>
+		  <ChunkSlagSteel>2</ChunkSlagSteel>
+		</killedLeavings>
+	  </ThingDef>
+	  
+</Defs>

@@ -1,0 +1,8 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\bin\Debug\BetweenTheStars.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\obj\Debug\BetweenTheStars.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\obj\Debug\BetweenTheStars.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\obj\Debug\BetweenTheStars.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\bin\Debug\0Harmony.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\bin\Debug\0Harmony.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\bin\Debug\0Harmony.xml
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\Source\BetweenTheStars\obj\Debug\BetweenT.71168DFD.Up2Date

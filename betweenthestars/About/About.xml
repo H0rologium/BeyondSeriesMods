@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <packageId>Horo.BTEOTW2.25</packageId>
+  <name>Between the Stars</name>
+  <author>Horologium</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description> Between the Stars is a spiritual successor to one of my earliest attempts at modding: Beyond the End of the World.
+  
+  This mod has a more set focus rather than trying to add in a bunch of weird stuff from the original, and has been rewritten from the ground up. The mod is optimally designed for more heavily modded environments, but nothing is too overpowered.
+
+When you play with Between the Stars, you may stumble upon a weird console, rusting out in the middle of nowhere. Reactivating this old relic will expose you to things you may not be ready to see.
+
+This mod also adds a new faction. Starway Corporation is an ancient expedition and colony company that was considered defunct for decades. They still exist on fringe worlds and hiding in deep space, maintaining patents on odd, old technology that works wonders, but can have odd side effects. Gameplay wise, Starway is a spacer faction that is trying to keep the secrets to their tech under wraps. Their relation with you may vary just like any other faction, unless you try to uncover what they want forgotten.
+
+Starway was founded from colonies of scientists who were forced with the hard truths that they would have to eventually protect their claims with force. Enter the Stellarknights, a xenotype of cultured genes to create perfectly loyal soldiers ready to die for another's cause.
+  </description>
+</ModMetaData>
