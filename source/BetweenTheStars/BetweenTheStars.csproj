@@ -34,9 +34,10 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.3.6.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Lib.Harmony.2.3.6\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>C:\Users\Skeyan\AppData\Roaming\Isolated Rimworld\1.6\Rimworld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -48,13 +49,16 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>C:\Users\Skeyan\AppData\Roaming\Isolated Rimworld\1.6\Rimworld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompProperties_ResearchCore_CPT.cs" />
+    <Compile Include="CompProperties_UseEffectGiveQuant.cs" />
     <Compile Include="GenStep_Terminal.cs" />
-    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="InternalDefOf.cs" />
+    <Compile Include="JobDriver_UseDecryptionBench.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -64,6 +64,7 @@ namespace BetweenTheStars
             return false;
         }
 
+
         protected ThingDef atcDef;
     }
 }
