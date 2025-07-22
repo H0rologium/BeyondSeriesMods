@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BenchBase">
+        <defName>DecryptionBench</defName>
+        <label>manufacturing and Decryption Bench</label>
+        <description>A modified machining table that can be used to manufacture goods. Approved design by Starway Incorporated.\nThe table's design includes advanced computational power, but it is not known as to why.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <graphicData>
+        <texPath>Things/Building/MADBench</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3.5,1.5)</drawSize>
+        <shadowData>
+            <volume>(2.8, 0.35, 0.59)</volume>
+            <offset>(0, 0, 0.08)</offset>
+        </shadowData>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+        </graphicData>
+        <costList>
+        <Steel>100</Steel>
+        <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <constructEffect>ConstructMetal</constructEffect>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <statBases>
+        <WorkToBuild>3000</WorkToBuild>
+        <MaxHitPoints>220</MaxHitPoints>
+        <Flammability>0.8</Flammability>
+        <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <size>(3,1)</size>
+        <designationCategory>Production</designationCategory>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <inspectorTabs>
+        <li>ITab_Bills</li>
+        </inspectorTabs>
+        <building>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+        <workTableRoomRole>Workshop</workTableRoomRole>
+        <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+        </building>
+        <comps>
+        <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <shortCircuitInRain>true</shortCircuitInRain>
+            <basePowerConsumption>250</basePowerConsumption>
+        </li>
+        <li Class="CompProperties_Flickable"/>
+        <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+            <li>ToolCabinet</li>
+            </linkableFacilities>
+        </li>
+        <li Class="CompProperties_HeatPusher">
+            <compClass>CompHeatPusherPowered</compClass>
+            <heatPerSecond>1</heatPerSecond>
+        </li>
+        </comps>
+        <placeWorkers>
+        <li>PlaceWorker_ShowFacilitiesConnections</li>
+        <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>MicroelectronicsBasics</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+</Defs>

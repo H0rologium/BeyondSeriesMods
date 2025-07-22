@@ -22,7 +22,7 @@
 		  <MaxHitPoints>2000</MaxHitPoints>
 		</statBases>
 		<killedLeavings>
-		  <ChunkSlagSteel>2</ChunkSlagSteel>
+		  <AncientResearchCore>1</AncientResearchCore>
 		</killedLeavings>
 	  </ThingDef>
 	  

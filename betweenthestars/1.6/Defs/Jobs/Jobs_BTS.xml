@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>ReadAncientData</defName>
+    <driverClass>JobDriver_UseItemResearchBench</driverClass>
+    <reportString>decrypting TargetA.</reportString>
+  </JobDef>
+
+</Defs>

@@ -9,7 +9,7 @@
   </supportedVersions>
   <description> Between the Stars is a spiritual successor to one of my earliest attempts at modding: Beyond the End of the World.
   
-  This mod has a more set focus rather than trying to add in a bunch of weird stuff from the original, and has been rewritten from the ground up. The mod is optimally designed for more heavily modded environments, but nothing is too overpowered.
+  This mod has a more set focus rather than trying to add in a bunch of weird stuff from the original, and has been rewritten from the ground up. The mod is optimally designed for more modded environments, but can be a fun challenge for vanilla play.
 
 When you play with Between the Stars, you may stumble upon a weird console, rusting out in the middle of nowhere. Reactivating this old relic will expose you to things you may not be ready to see.
 
@@ -17,4 +17,29 @@ This mod also adds a new faction. Starway Corporation is an ancient expedition a
 
 Starway was founded from colonies of scientists who were forced with the hard truths that they would have to eventually protect their claims with force. Enter the Stellarknights, a xenotype of cultured genes to create perfectly loyal soldiers ready to die for another's cause.
   </description>
+
+  <!--<modIconPath></modIconPath>-->
+  <modDependenciesByVersion>
+    <v1.6>
+      <li>
+        <packageId>Ludeon.Rimworld.Biotech</packageId>
+        <displayName>Biotech</displayName>
+      </li>
+      <li>
+        <packageId>Ludeon.Rimworld.Odyssey</packageId>
+        <displayName>Odyssey</displayName>
+      </li>
+    </v1.6>
+  </modDependenciesByVersion>
+
+  <loadAfterByVersion>
+    <v1.6>
+      <li>Ludeon.Rimworld.Biotech</li>
+      <li>Ludeon.Rimworld.Odyssey</li>
+    </v1.6>
+  </loadAfterByVersion>
+
+  <incompatibleWithByVersion>
+    <v1.6 />
+  </incompatibleWithByVersion>
 </ModMetaData>

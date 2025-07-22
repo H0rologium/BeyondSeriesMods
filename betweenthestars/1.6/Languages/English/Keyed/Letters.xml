@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ResearchAccessedLabel>Decryption: Complete</ResearchAccessedLabel>
+    <ResearchAccessed>Once the data was decrypted, it was easy to read into it. However, all the data seems to be some sort of sensor readings; phsyics equations littering long documents of mathematical terms that dont make sense.\n\nThe only content that is understandable is a series of addresses and TLS ids. Only one seems to be active. The computer systems in the bench whir as a triggered script contacts the remaining connection. There's no stopping the outbound message, signaling some unknown recipient of your existence.\n\nThere's a noise as a lone transport pod enters the atmosphere nearby. What could it be?</ResearchAccessed>
+
+</LanguageData>

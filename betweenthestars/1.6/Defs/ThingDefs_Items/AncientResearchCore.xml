@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+    <defName>AncientResearchCore</defName>
+    <label>ancient research core</label>
+    <description>A modified mechanoid transponder chip that seems to be altered to hold a lot more data than just mechanoid relay signals.\n\nThe hidden data can't be decrypted until we can incorporate this device into a proper machine.=</description>
+    <thingClass>ThingWithComps</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <graphicData>
+      <texPath>Things/Item/AncientResearchCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <category>Item</category>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+    <selectable>true</selectable>
+    <statBases>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+      <MarketValue>0</MarketValue>
+    </statBases>
+    <tradeability>None</tradeability>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <comps>
+      <li Class="BetweenTheStars.CompProperties_ResearchCore_CPT">
+        <compClass>BetweenTheStars.CompUseableResearchCore</compClass>
+        <useJob>ReadAncientData</useJob>
+        <useLabel>Decrypt ancient data</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>DatacoreRead</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+      <li Class="BetweenTheStars.CompProperties_UseEffectGiveQuant" />
+    </comps>
+  </ThingDef>
+
+
+</Defs>

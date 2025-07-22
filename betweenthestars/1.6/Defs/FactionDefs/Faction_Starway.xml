@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef Name="BTS_StarwayBase" Abstract="True">
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(550,     150)</li>
+        <li>(2000,   1200)</li>
+        <li>(15000,  5000)</li>
+        <li>(22000,  8000)</li>
+        <li>(45000, 10000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+        <li>(150000, 20000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+	</FactionDef>
+
+   <!-- ===================================================================================== -->
+
+    <FactionDef ParentName="BTS_StarwayBase">
+    <defName>BTS_Starway</defName>
+    <label>Starway Incorporated</label>
+    <fixedName>Starway Incorporated</fixedName>
+    <pawnSingular>member</pawnSingular>
+    <pawnsPlural>members</pawnsPlural>
+    <leaderTitle>chairman</leaderTitle>
+    <techLevel>Ultra</techLevel>
+    <description>A conglomerate that has existed for so long due to sheer influence. Recruiting anyone willing to follow in their path, this faction has slowly started having rumors about the practices that the leadership enforces. Whispers of strange authority crackdowns and funding to miscellaneous mining trips has people believing these members are closer to a cult than a multiplanetary organization.\n\nIn general they don't mind working with others, but can get quite mad if you openly disapprove of or shame their goals. Their resourcefulness has lead them to adopt the technologies of this RimWorld to further their goals, enjoying the work of the Rim's researchers rather than attempting to innovate on their own.</description>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
+    <canSiege>false</canSiege>
+	  <autoFlee>false</autoFlee>
+    <canStageAttacks>false</canStageAttacks>
+	  <naturalEnemy>false</naturalEnemy>
+    <allowedArrivalTemperatureRange>
+      <min>-42</min>
+      <max>42</max>
+    </allowedArrivalTemperatureRange>
+
+    <factionIconPath>Things/World/SRY_IIcon</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    
+    <colorSpectrum>
+	      <li>(132,211,105)</li>
+    </colorSpectrum>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>Plasteel</li>
+      </thingDefs>
+	  </apparelStuffFilter>
+
+    <baseTraderKinds>
+		    <li>Orbital_BulkGoods</li>
+        <li>Orbital_CombatSupplier</li>
+        <li>Orbital_Exotic</li>
+	  </baseTraderKinds>
+    <xenotypeSet>
+      <xenotypeChances>
+          <Baseliner MayRequire="Ludeon.Rimworld.Biotech">0.5</Baseliner>
+          <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.15</Hussar>
+          <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+          <Starjack MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">0.3</Starjack>
+      </xenotypeChances>
+    </xenotypeSet>
+
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <colorSpectrum>
+	      <li>(132,211,105)</li>
+    </colorSpectrum>
+  <classicIdeo>false</classicIdeo>
+  <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+  <settlementGenerationWeight>1</settlementGenerationWeight>
+  <requiredCountAtGameStart>1</requiredCountAtGameStart>
+  <canMakeRandomly>true</canMakeRandomly>
+  <allowedCultures>
+    <li>BTS_Starfinders</li>
+  </allowedCultures>
+  <modExtensions>
+		<li Class="FactionTweaks.FactionOptions">
+			<hideFactionLeader>false</hideFactionLeader>
+			<preceptsToAdd>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_Random</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_Unlimited</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Female_Unlimited</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Abhorrent</li>
+        <li MayRequire="Ludeon.Rimworld.Anomaly">VoidStudy_VeryEfficient</li>
+        <li MayRequire="Ludeon.Rimworld.Biotech">ChildLabor_Encouraged</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology">NutrientPasteEating_DontMind</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology">Blinding_Horrible</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology">BodyMod_Approved</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology">Execution_DontCare</li>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">Indoors_Acceptable</li>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">Temperature_Tough</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology">SleepAccelerator_Preferred</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology">NeuralSupercharge_Preferred</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology">Biosculpting_Accelerated</li>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">SpaceHabitat_Preferred</li>
+			</preceptsToAdd>
+			<hasUniqueIdeo MayRequire="Ludeon.RimWorld.Ideology">true</hasUniqueIdeo>
+			<customIdeoIcon MayRequire="Ludeon.RimWorld.Ideology">BTS_IdeoIcon</customIdeoIcon>
+			<customIdeoDescription>Reality is right in front of us. For centuries our ancestors explored the worlds given to them. Finding. Learning. Now, we continue their journey to the ultimate goal of understanding truly what we live in. Once we spread across the stars, we began to understand the forces beyond what we could observe. It is imperative, then, that we elevate ourselves to that position. Move beyond the frail bodies we were given and create a greater form with them. We must reach out into the dark night and wrap our hands around those silent arbiters that idle between the stars. This is our purpose, and we must not stray.</customIdeoDescription>
+		</li>
+	</modExtensions>
+
+  <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginHindu</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginBuddhist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Standard</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Approved</li>
+    </disallowedPrecepts>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">Shipborn</li>
+    </requiredMemes>
+
+    <structureMemeWeights>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">0.25</Structure_TheistEmbodied>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">0.35</Structure_TheistAbstract>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_Archist>
+      <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginChristian>
+      <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginIslamic>
+      <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginHindu>
+      <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginBuddhist>
+    </structureMemeWeights>
+	
+    <pawnGroupMakers>
+	
+	    <li>
+            <!-- Normal fights -->
+            <kindDef>Combat</kindDef>
+            <commonality>100</commonality> <!--50-->
+            <options>
+                <RH_VOID_Member>10</RH_VOID_Member>
+                <RH_VOID_Associate>8</RH_VOID_Associate>
+                <RH_VOID_Destroyer>8</RH_VOID_Destroyer>
+                <RH_VOID_Grinder>5</RH_VOID_Grinder>
+                <RH_VOID_Collaborator>10</RH_VOID_Collaborator>
+                <RH_Titan>8</RH_Titan>
+                <RH_Wraith>8</RH_Wraith>
+                <RH_DFGiantSpider>8</RH_DFGiantSpider>
+                <RH_DF_Mother>5</RH_DF_Mother>
+                <RH_VOID_Elite>5</RH_VOID_Elite>
+                <RH_VOID_Boss>5</RH_VOID_Boss>
+            </options>
+        </li>
+    
+	  </pawnGroupMakers>
+
+  </FactionDef>
+ <!-- =============================================================================================================-->
+   <IdeoIconDef>
+    <defName>BTS_IdeoIcon</defName>
+    <iconPath>Things/World/SRY_IIcon</iconPath>
+    <cultures>
+      <li MayRequire="Ludeon.RimWorld.Ideology">BTS_Starfinders</li>
+    </cultures>
+    <memes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">Shipborn</li>
+    </memes>
+  </IdeoIconDef>
+
+
+</Defs>
