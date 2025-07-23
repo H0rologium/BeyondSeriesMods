@@ -16,5 +16,9 @@ namespace BetweenTheStars
 
         
         public static ThingDef DecryptionBench;
+
+        public static FactionDef BTS_Starway;
+
+        public static PawnKindDef BTS_Frontierman;
     }
 }

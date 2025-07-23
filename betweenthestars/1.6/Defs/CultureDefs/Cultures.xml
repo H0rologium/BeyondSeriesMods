@@ -17,8 +17,8 @@
     <iconPath>Things/World/SRY_IIcon</iconPath>
     <thingStyleCategories>
       <li MayRequire="Ludeon.RimWorld.Ideology">
-        <category>Spikecore</category>
-        <priority>2</priority>
+        <category>Techist</category>
+        <priority>4</priority>
       </li>
     </thingStyleCategories>
     <styleItemTags>
@@ -30,14 +30,23 @@
       <li>
         <tag>BeardRural</tag>
         <baseWeight>0.1</baseWeight>
-        <weightFactor>1</weightFactor>
+        <weightFactor>0.9</weightFactor>
       </li>
       <li>
         <tag>BeardUrban</tag>
         <baseWeight>0.2</baseWeight>
+        <weightFactor>0.9</weightFactor>
+      </li>
+      <li>
+        <tag>Soldier</tag>
+        <baseWeight>1.2</baseWeight>
         <weightFactor>1</weightFactor>
       </li>
     </styleItemTags>
+    <preferredWeaponClasses>
+      <noble>Ultratech</noble>
+      <despised>Neolithic</despised>
+    </preferredWeaponClasses>
   </CultureDef>
 
 </Defs>

@@ -31,7 +31,7 @@
 			<max>0</max>
 		</combatEnhancingDrugsCount>-->
         <inventoryOptions>
-			<skipChance>0.5</skipChance>
+			<skipChance>0.7</skipChance>
 			<thingDef>MedicineIndustrial</thingDef>
 			<countRange>
 				<min>0</min>
@@ -79,14 +79,13 @@
 			<min>250</min>
 			<max>2000</max>
 		</apparelMoney>
-        <apparelAllowHeadgearChance>2</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>200</min>
 			<max>500</max>
 		</weaponMoney>
         <weaponTags>
-            <li>IndustrialGunAdvanced</li>
-            <li>MedievalMeleeDecent</li>
+            <li>SimpleGun</li>
+            <li>ShortShots</li>
         </weaponTags>
         <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
 		<combatEnhancingDrugsCount>
@@ -107,6 +106,7 @@
 		</inventoryOptions>
         <isFighter>true</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <biocodeWeaponChance>0.1</biocodeWeaponChance>
 
     </PawnKindDef>
 
@@ -117,20 +117,35 @@
 
 
 
-
+    <!-- Chairmen hold the most important role to Starway: making the stakeholders happy. They might be embezzling a little of the company's income to give them the best gear money can buy-->
 
     <PawnKindDef ParentName="BTS_Starliner_Base">
 		<defName>BTS_Chairman</defName>
 		<label>chairman</label>
 		<labelPlural>chairmen</labelPlural>
 		<factionLeader>true</factionLeader>
-		<combatPower>250</combatPower>
+		<combatPower>350</combatPower>
 		<canBeSapper>true</canBeSapper>
         <initialWillRange>80~95</initialWillRange>
 		<initialResistanceRange>50~90</initialResistanceRange>
-		<!--<apparelRequired>
-			<li></li>
-		</apparelRequired>-->
+        <xenotypeSet Inherit="False">
+            <xenotypeChances>
+                <BTSX_Starborn>900</BTSX_Starborn>
+                <Genie>99</Genie>
+            </xenotypeChances>
+        </xenotypeSet>
+
+		<apparelRequired>
+			<li>Apparel_ArmorMarineHelmentPrestige</li>
+            <li>Apparel_ArmorMarinePrestige</li>
+		</apparelRequired>
+        <weaponTags>
+            <li>WeaponBeamRepeater</li>
+        </weaponTags>
+        <weaponMoney>
+			<min>1235</min>
+			<max>5000</max>
+		</weaponMoney>
 		<inventoryOptions>
 			<skipChance>0</skipChance>
 			<subOptionsChooseOne>
@@ -143,6 +158,7 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+        <biocodeWeaponChance>1.0</biocodeWeaponChance>
 
 		<techHediffsRequired>
 			<li>DeathAcidifier</li>

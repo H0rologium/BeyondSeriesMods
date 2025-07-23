@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[RH2] Faction: V.O.I.D.</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/PawnKindDef[defName="BTS_Chairman"]/techHediffsRequired</xpath>
+                        <value>
+                            <li>RH_VOIDBionicSpine</li>
+                            <li>RH_VOIDBionicHeart</li>
+                            <li>RH_VOIDBionicEar</li>
+                            <li>RH_VOIDBionicEar</li>
+                            <li>RH_VOIDAestheticNose</li>
+                            <li>RH_VOIDBionicStomach</li>
+                            <li>RH_VOIDCircadianHalfCycler</li>
+                            <li>RH_VOIDBionicLung</li>
+                            <li>RH_VOIDBionicLung</li>
+                            <li>RH_VOIDBionicLiver</li>
+                            <li>RH_VOIDBionicKidney</li>
+                            <li>RH_VOIDBionicKidney</li>
+                            <li>RH2_VOIDArchotechLeg</li>
+                            <li>RH2_VOIDArchotechLeg</li>
+                            <li>RH2_VOIDArchotechArm</li>
+                            <li>RH2_VOIDArchotechArm</li>
+                            <li>RH2_VOIDArchotechEye</li>
+                            <li>RH2_VOIDArchotechEye</li>
+                            <li>RH_AestheticShaper</li>
+                            <li>Painstopper</li>
+                            <li>RH2_NerotoninV_Implant</li>
+                            <li>RH2_Nerotonin2b_Implant</li>
+                            <li>DF_Versatility_Implant</li>
+                            <li>DF_Trinity_Implant</li>
+                            <li>DF_Ghastly_Implant</li>
+                            <li>DF_Celerity_Implant</li>
+                            <li>DF_Scrutiny_Implant</li>
+                            <li>DF_Mastery_Implant</li>
+                            <li>DF_Calamity_Implant</li>
+                            <li>DF_Lethality_Implant</li>
+                            <li>DF_Mortality_Implant</li>
+                            <li>DF_Prosperity_Implant</li>
+                            <li>DF_UltraBoost_Implant</li>
+                            <li>DF_Devils_Implant</li>
+                            <li>DF_Volatile_Implant</li>
+                            <li>DF_XDusk_Implant</li>
+                            <li>DF_CatEye_Implant</li>
+                            <li>DF_Destruction_Implant</li>
+                            <li>DF_Amber_Implant</li>
+                            <li>DF_Genius_Implant</li>
+                            <li>DF_Data_Implant</li>
+                            <li>DF_Havoc_Implant</li>
+                            <li>DF_XHyper_Implant</li>
+                            <li>DF_XPerception_Implant</li>
+                            <li>DF_XIronskin_Implant</li>
+                            <li>DF_XViolence_Implant</li>
+                        </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/PawnKindDef[defName="BTS_Chairman"]/techHediffsRequired</xpath>
+                <value>
+                    <li>Painstopper</li>
+                </value>
+        </nomatch>
+    </Operation>
+
+
+</Patch>

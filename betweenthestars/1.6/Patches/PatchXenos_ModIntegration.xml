@@ -10,7 +10,7 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/FactionDef[defName="BTS_Starway"]/xenotypeSet/xenotypeChances</xpath>
                         <value>
-                            <CYB_Uncia>0.2</CYB_Uncia>
+                            <CYB_Uncia>0.12</CYB_Uncia>
                         </value>
                 </li>
             </operations>
@@ -32,4 +32,6 @@
             </operations>
         </match>
     </Operation>
+
+    
 </Patch>

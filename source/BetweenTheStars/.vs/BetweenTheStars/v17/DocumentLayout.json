@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\factiongenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:factiongenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\compproperties_useeffectgivequant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\compproperties_useeffectgivequant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:compproperties_useeffectgivequant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HarmonyPatches.cs",
-              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\HarmonyPatches.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches.cs",
-              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\HarmonyPatches.cs",
-              "RelativeToolTip": "HarmonyPatches.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAuwEUAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T00:26:13.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FactionGenOptions.cs",
-              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\FactionGenOptions.cs",
-              "RelativeDocumentMoniker": "FactionGenOptions.cs",
-              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\FactionGenOptions.cs",
-              "RelativeToolTip": "FactionGenOptions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Title": "InternalDefOf.cs",
+              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\InternalDefOf.cs",
+              "RelativeDocumentMoniker": "InternalDefOf.cs",
+              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\InternalDefOf.cs",
+              "RelativeToolTip": "InternalDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T00:24:58.165Z",
+              "WhenOpened": "2025-07-23T07:12:33.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CompProperties_UseEffectGiveQuant.cs",
               "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\CompProperties_UseEffectGiveQuant.cs",
               "RelativeDocumentMoniker": "CompProperties_UseEffectGiveQuant.cs",
               "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\CompProperties_UseEffectGiveQuant.cs",
               "RelativeToolTip": "CompProperties_UseEffectGiveQuant.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T00:12:00.98Z",
               "EditorCaption": ""

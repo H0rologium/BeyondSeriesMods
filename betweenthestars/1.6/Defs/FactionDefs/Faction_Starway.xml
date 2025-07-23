@@ -68,11 +68,11 @@
 	  </baseTraderKinds>
     <xenotypeSet>
       <xenotypeChances>
-          <BTSX_Starborn>0.12</BTSX_Starborn>
-          <Baseliner MayRequire="Ludeon.Rimworld.Biotech">0.34</Baseliner>
+          <BTSX_Starborn>0.21</BTSX_Starborn>
+          <Baseliner MayRequire="Ludeon.Rimworld.Biotech">0.28</Baseliner>
           <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
           <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
-          <Starjack MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">0.29</Starjack>
+          <Starjack MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">0.26</Starjack>
       </xenotypeChances>
     </xenotypeSet>
 
@@ -169,15 +169,22 @@
 	
     <pawnGroupMakers>
 	
-	    <li>
+	      <li>
             <!-- Frontiermen fights -->
             <kindDef>Combat</kindDef>
             <commonality>40</commonality>
             <options>
-                <BTS_Frontierman>10</BTS_Frontierman>
+                <BTS_Frontierman>100</BTS_Frontierman>
             </options>
         </li>
-    
+
+        <li>
+            <kindDef>Combat</kindDef>
+            <commonality>0.01</commonality>
+            <options>
+                <BTS_Frontierman>100</BTS_Frontierman>
+            </options>
+        </li>
 	  </pawnGroupMakers>
 
   </FactionDef>

@@ -30,7 +30,12 @@
 
   <loadAfterByVersion>
     <v1.6>
+      <li>RH2.Faction.VOID</li>
       <li>brrainz.harmony</li>
+      <li>Ludeon.Rimworld.Core</li>
+      <li>Ludeon.Rimworld.Ideology</li>
+      <li>Ludeon.Rimworld.Royalty</li>
+      <li>Ludeon.Rimworld.Anomaly</li>
       <li>Ludeon.Rimworld.Biotech</li>
       <li>Ludeon.Rimworld.Odyssey</li>
       <li>cyanobot.OncaAndUncia</li>
