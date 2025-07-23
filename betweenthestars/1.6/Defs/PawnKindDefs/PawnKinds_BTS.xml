@@ -25,17 +25,18 @@
         
         <maxGenerationAge>55</maxGenerationAge>
         <minGenerationAge>22</minGenerationAge>
-        <!--<combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
-		<combatEnhancingDrugsCount>
-			<min>0</min>
-			<max>0</max>
-		</combatEnhancingDrugsCount>-->
+        <gearHealthRange>
+            <min>1</min>
+            <max>1</max>
+        </gearHealthRange>
+        <isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <inventoryOptions>
 			<skipChance>0.7</skipChance>
 			<thingDef>MedicineIndustrial</thingDef>
 			<countRange>
 				<min>0</min>
-				<max>3</max>
+				<max>1</max>
 			</countRange>
 		</inventoryOptions>
         <disallowedTraits>
@@ -47,6 +48,8 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
+        <factionHostileOnKill>true</factionHostileOnKill>
+        <generateInitialNonFamilyRelations>false</generateInitialNonFamilyRelations>
     </PawnKindDef>
     <!-- ========================================================================================== -->
 
@@ -59,11 +62,6 @@
         <combatPower>50</combatPower>
         <initialWillRange>45~70</initialWillRange>
 		<initialResistanceRange>10~40</initialResistanceRange>
-        
-        <gearHealthRange>
-            <min>1</min>
-            <max>1</max>
-        </gearHealthRange>
 
         <apparelTags>
             <li>IndustrialBasic</li>
@@ -75,6 +73,7 @@
             <li>Apparel_FlakVest</li>
             <li>Apparel_FlakPants</li>
         </apparelRequired>
+        <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
         <apparelMoney>
 			<min>250</min>
 			<max>2000</max>
@@ -104,17 +103,63 @@
                 </li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
-        <isFighter>true</isFighter>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <biocodeWeaponChance>0.1</biocodeWeaponChance>
 
     </PawnKindDef>
 
+    <!-- Marksmen are similarly hired outlanders who have access to better weapons -->
 
+    <PawnKindDef ParentName="BTS_Starliner_Base">
 
+        <defName>BTS_Marksman</defName>
+        <label>marksman</label>
+        <combatPower>80</combatPower>
+        <initialWillRange>50~75</initialWillRange>
+		<initialResistanceRange>15~45</initialResistanceRange>
+        <apparelTags>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_AdvancedHelmet</li>
+            <li>Apparel_FlakJacket</li>
+            <li>Apparel_FlakVest</li>
+            <li>Apparel_FlakPants</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+        <apparelMoney>
+			<min>300</min>
+			<max>2200</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>200</min>
+			<max>700</max>
+		</weaponMoney>
+        <weaponMoney>
+			<min>500</min>
+			<max>800</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+            <li>SniperRifle</li>
+        </weaponTags>
+        <combatEnhancingDrugsChance>0.25</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>0~1</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>1</min>
+                        <max>50</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <biocodeWeaponChance>0.15</biocodeWeaponChance>
+        <canBeSapper>true</canBeSapper>
 
-
-
+    </PawnKindDef>
 
 
     <!-- Chairmen hold the most important role to Starway: making the stakeholders happy. They might be embezzling a little of the company's income to give them the best gear money can buy-->
@@ -136,8 +181,8 @@
         </xenotypeSet>
 
 		<apparelRequired>
-			<li>Apparel_ArmorMarineHelmentPrestige</li>
-            <li>Apparel_ArmorMarinePrestige</li>
+			<li>Apparel_PowerArmorHelmet</li>
+            <li>Apparel_PowerArmor</li>
 		</apparelRequired>
         <weaponTags>
             <li>WeaponBeamRepeater</li>
@@ -159,11 +204,32 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
         <biocodeWeaponChance>1.0</biocodeWeaponChance>
-
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>19~20</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>19~20</range>
+            </li>
+        </skills>
 		<techHediffsRequired>
 			<li>DeathAcidifier</li>
+            <li>BionicSpine</li>
 		</techHediffsRequired>
-
+        <startingHediffs>
+            <li>
+                <def>GoJuiceHigh</def>
+                <severity>1.0</severity>
+                <chance>1.0</chance>
+            </li>
+            <li>
+                <def>LuciferiumHigh</def>
+                <severity>1.0</severity>
+                <chance>1.0</chance>
+            </li>
+        </startingHediffs>
 	</PawnKindDef>
 
 

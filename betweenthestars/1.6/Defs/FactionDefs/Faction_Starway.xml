@@ -5,10 +5,11 @@
     <raidLootValueFromPointsCurve>
       <points>
         <li>(590,     250)</li>
-        <li>(2200,   1200)</li>
+        <li>(2200,   600)</li>
         <li>(15500,  5000)</li>
         <li>(22500,  8000)</li>
-        <li>(45500, 10000)</li>
+        <li>(45500, 8900)</li>
+        <li>(50000, 10000)</li>
       </points>
     </raidLootValueFromPointsCurve>
     <maxPawnCostPerTotalPointsCurve>
@@ -38,7 +39,7 @@
     <techLevel>Ultra</techLevel>
     <description>A conglomerate that has existed for so long due to sheer influence. Recruiting anyone willing to follow in their path, this faction has rumors about the practices that the leadership enforces. Whispers of strange authority crackdowns and funding to miscellaneous mining trips has people believing these members are closer to a cult than a multiplanetary organization.\n\nIn general they don't mind working with others, but can get quite mad if you openly disapprove of or shame their goals. Their resourcefulness has led them to adopt the technologies of this RimWorld to further their goals, enjoying the work of the local researchers rather than attempting to innovate on their own.</description>
     <factionNameMaker>NamerFactionSalvagers</factionNameMaker>
-    <settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <canSiege>false</canSiege>
 	  <autoFlee>false</autoFlee>
     <canStageAttacks>false</canStageAttacks>
@@ -56,6 +57,7 @@
     </colorSpectrum>
     <apparelStuffFilter>
       <thingDefs>
+        <li>Synthread</li>
         <li>Hyperweave</li>
         <li>Plasteel</li>
       </thingDefs>
@@ -105,18 +107,18 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Abhorrent</li>
-        <li MayRequire="Ludeon.Rimworld.Anomaly">VoidStudy_VeryEfficient</li>
-        <li MayRequire="Ludeon.Rimworld.Biotech">ChildLabor_Encouraged</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology,Ludeon.Rimworld.Anomaly">VoidStudy_VeryEfficient</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology,Ludeon.Rimworld.Biotech">ChildLabor_Encouraged</li>
         <li MayRequire="Ludeon.Rimworld.Ideology">NutrientPasteEating_DontMind</li>
         <li MayRequire="Ludeon.Rimworld.Ideology">Blinding_Horrible</li>
         <li MayRequire="Ludeon.Rimworld.Ideology">BodyMod_Approved</li>
         <li MayRequire="Ludeon.Rimworld.Ideology">Execution_DontCare</li>
-        <li MayRequire="Ludeon.Rimworld.Odyssey">Indoors_Acceptable</li>
-        <li MayRequire="Ludeon.Rimworld.Odyssey">Temperature_Tough</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology,Ludeon.Rimworld.Odyssey">Indoors_Acceptable</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology,Ludeon.Rimworld.Odyssey">Temperature_Tough</li>
         <li MayRequire="Ludeon.Rimworld.Ideology">SleepAccelerator_Preferred</li>
         <li MayRequire="Ludeon.Rimworld.Ideology">NeuralSupercharge_Preferred</li>
         <li MayRequire="Ludeon.Rimworld.Ideology">Biosculpting_Accelerated</li>
-        <li MayRequire="Ludeon.Rimworld.Odyssey">SpaceHabitat_Preferred</li>
+        <li MayRequire="Ludeon.Rimworld.Ideology,Ludeon.Rimworld.Odyssey">SpaceHabitat_Preferred</li>
 			</preceptsToAdd>
 			<hasUniqueIdeo MayRequire="Ludeon.RimWorld.Ideology">true</hasUniqueIdeo>
 			<customIdeoIcon MayRequire="Ludeon.RimWorld.Ideology">BTS_IdeoIcon</customIdeoIcon>
@@ -153,7 +155,7 @@
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
-      <li MayRequire="Ludeon.RimWorld.Odyssey">Shipborn</li>
+      <li MayRequire="Ludeon.Rimworld.Ideology,Ludeon.RimWorld.Odyssey">Shipborn</li>
     </requiredMemes>
 
     <structureMemeWeights>
@@ -177,14 +179,16 @@
                 <BTS_Frontierman>100</BTS_Frontierman>
             </options>
         </li>
-
         <li>
+            <!-- Frontiermen and Marksmen -->
             <kindDef>Combat</kindDef>
-            <commonality>0.01</commonality>
+            <commonality>80</commonality>
             <options>
-                <BTS_Frontierman>100</BTS_Frontierman>
+                <BTS_Frontierman>50</BTS_Frontierman>
+                <BTS_Marksman>51</BTS_Marksman>
             </options>
         </li>
+
 	  </pawnGroupMakers>
 
   </FactionDef>
@@ -198,7 +202,7 @@
     <memes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-      <li MayRequire="Ludeon.RimWorld.Odyssey">Shipborn</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology,Ludeon.RimWorld.Odyssey">Shipborn</li>
     </memes>
   </IdeoIconDef>
 
