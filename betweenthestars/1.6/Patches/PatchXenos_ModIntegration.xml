@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Jaguar and Snow Leopard Xenotypes</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/FactionDef[defName="BTS_Starway"]/xenotypeSet/xenotypeChances</xpath>
+                        <value>
+                            <CYB_Uncia>0.2</CYB_Uncia>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Carrying Capacity Genes</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="BTSX_Starborn"]/genes</xpath>
+                        <value>
+                            <li>NCG_Loadbearing</li>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -56,7 +56,9 @@
   <ItemGroup>
     <Compile Include="CompProperties_ResearchCore_CPT.cs" />
     <Compile Include="CompProperties_UseEffectGiveQuant.cs" />
+    <Compile Include="FactionGenOptions.cs" />
     <Compile Include="GenStep_Terminal.cs" />
+    <Compile Include="HarmonyPatches.cs" />
     <Compile Include="InternalDefOf.cs" />
     <Compile Include="JobDriver_UseDecryptionBench.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

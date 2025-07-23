@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>BTSX_Starborn</defName>
+    <label>Starborn</label>
+    <description>A human modified to suit the need for a new, meta human. Most people are forced into taking on these adaptations from ruthless forces of power, as naturally born children do not survive long without side effects and most Starborn are sterile.</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <!--<displayPriority>1000</displayPriority>-->
+    <inheritable>false</inheritable>
+    <genes>
+      <li>Skin_Blue</li>
+      <li>Eyes_Gray</li>
+      <li>Body_Hulk</li>
+      <li>VoiceRoar</li>
+      <li>DarkVision</li>
+      <li>KillThirst</li>
+      <li>FireResistant</li>
+      <li>Inbred</li>
+      <li>Instability_Major</li>
+      <li>Unstoppable</li>
+      <li>WebbedPhalanges</li>
+      <li>WoundHealing_SuperFast</li>
+      <li>Immunity_Weak</li>
+      <li>Sterile</li>
+      <li>Superclotting</li>
+      <li>MaxTemp_LargeIncrease</li>
+      <li>MinTemp_LargeDecrease</li>
+      <li>PsychicAbility_Deaf</li>
+      <li>MoveSpeed_Quick</li>
+      <li>Beauty_VeryUgly</li>
+      <li>Learning_Slow</li>
+      <li>Mood_Depressive</li>
+      <li>Robust</li>
+      <li>Pain_Reduced</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>Libido_Low</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

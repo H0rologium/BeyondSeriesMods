@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- ========================================================================================== -->
+    <PawnKindDef Name="BTS_Starliner_Base" Abstract="True">
+
+        <race>Human</race>
+        <defaultFactionDef>BTS_Starway</defaultFactionDef>
+        <chemicalAddictionChance>0.05</chemicalAddictionChance>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                    <li>Scientist</li>
+                    <li>Researcher</li>
+                    <li>Cult</li>
+                    <li>Offworld</li>
+                    <li>Pirate</li>
+                    <li>ImperialCommon</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <invNutrition>3</invNutrition>
+        <invFoodDef>MealNutrientPaste</invFoodDef>
+        
+        <maxGenerationAge>55</maxGenerationAge>
+        <minGenerationAge>22</minGenerationAge>
+        <!--<combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>0</min>
+			<max>0</max>
+		</combatEnhancingDrugsCount>-->
+        <inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<thingDef>MedicineIndustrial</thingDef>
+			<countRange>
+				<min>0</min>
+				<max>3</max>
+			</countRange>
+		</inventoryOptions>
+        <disallowedTraits>
+            <li>Wimp</li>
+			<li>Nudist</li>
+			<li>BodyPurist</li>
+            <li>PsychicSensitivity</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+    </PawnKindDef>
+    <!-- ========================================================================================== -->
+
+    <!-- Low-tech 'frontiermen' which are essentially hired outlanders-->
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+
+        <defName>BTS_Frontierman</defName>
+        <label>frontierman</label>
+        <combatPower>50</combatPower>
+        <initialWillRange>45~70</initialWillRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
+        
+        <gearHealthRange>
+            <min>1</min>
+            <max>1</max>
+        </gearHealthRange>
+
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_AdvancedHelmet</li>
+            <li>Apparel_FlakJacket</li>
+            <li>Apparel_FlakVest</li>
+            <li>Apparel_FlakPants</li>
+        </apparelRequired>
+        <apparelMoney>
+			<min>250</min>
+			<max>2000</max>
+		</apparelMoney>
+        <apparelAllowHeadgearChance>2</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>200</min>
+			<max>500</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>0</min>
+			<max>0</max>
+		</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>1</min>
+                        <max>50</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+
+    </PawnKindDef>
+
+
+
+
+
+
+
+
+
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+		<defName>BTS_Chairman</defName>
+		<label>chairman</label>
+		<labelPlural>chairmen</labelPlural>
+		<factionLeader>true</factionLeader>
+		<combatPower>250</combatPower>
+		<canBeSapper>true</canBeSapper>
+        <initialWillRange>80~95</initialWillRange>
+		<initialResistanceRange>50~90</initialResistanceRange>
+		<!--<apparelRequired>
+			<li></li>
+		</apparelRequired>-->
+		<inventoryOptions>
+			<skipChance>0</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineUltratech</thingDef>
+					<countRange>
+						<min>3</min>
+						<max>9</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+
+		<techHediffsRequired>
+			<li>DeathAcidifier</li>
+		</techHediffsRequired>
+
+	</PawnKindDef>
+
+
+</Defs>

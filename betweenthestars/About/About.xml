@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-  <packageId>Horo.BTEOTW2.25</packageId>
+  <packageId>Horo.BTEOTW.betweenthestars</packageId>
   <name>Between the Stars</name>
   <author>Horologium</author>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description> Between the Stars is a spiritual successor to one of my earliest attempts at modding: Beyond the End of the World.
-  
-  This mod has a more set focus rather than trying to add in a bunch of weird stuff from the original, and has been rewritten from the ground up. The mod is optimally designed for more modded environments, but can be a fun challenge for vanilla play.
+  <description>In addition to adding a handful of things to flesh out gameplay, this mod introduces a new faction to the mix: Starway Incorporated.\n\nSurrounded by rumors and conspiracy, this company has spread across a large portion of the galaxy in the search of something. They've dabbled with the tech they have found, resulting in both successes and byproducts finding their way all around the Rim.</description>
 
-When you play with Between the Stars, you may stumble upon a weird console, rusting out in the middle of nowhere. Reactivating this old relic will expose you to things you may not be ready to see.
-
-This mod also adds a new faction. Starway Corporation is an ancient expedition and colony company that was considered defunct for decades. They still exist on fringe worlds and hiding in deep space, maintaining patents on odd, old technology that works wonders, but can have odd side effects. Gameplay wise, Starway is a spacer faction that is trying to keep the secrets to their tech under wraps. Their relation with you may vary just like any other faction, unless you try to uncover what they want forgotten.
-
-Starway was founded from colonies of scientists who were forced with the hard truths that they would have to eventually protect their claims with force. Enter the Stellarknights, a xenotype of cultured genes to create perfectly loyal soldiers ready to die for another's cause.
-  </description>
-
-  <!--<modIconPath></modIconPath>-->
   <modDependenciesByVersion>
     <v1.6>
+      <li>
+          <packageId>brrainz.harmony</packageId>
+          <displayName>Harmony</displayName>
+          <downloadUrl>https://github.com/pardeike/HarmonyRimWorld</downloadUrl>
+          <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+      </li>
       <li>
         <packageId>Ludeon.Rimworld.Biotech</packageId>
         <displayName>Biotech</displayName>
@@ -34,8 +30,11 @@ Starway was founded from colonies of scientists who were forced with the hard tr
 
   <loadAfterByVersion>
     <v1.6>
+      <li>brrainz.harmony</li>
       <li>Ludeon.Rimworld.Biotech</li>
       <li>Ludeon.Rimworld.Odyssey</li>
+      <li>cyanobot.OncaAndUncia</li>
+      <li>nakomaru.carrygenes</li>
     </v1.6>
   </loadAfterByVersion>
 
