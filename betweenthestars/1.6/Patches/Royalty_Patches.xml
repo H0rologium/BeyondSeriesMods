@@ -17,20 +17,9 @@
                             </apparelRequired>
                         </value>
                 </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/FactionDef[defName="BTS_Starway"]/settlementNameMaker</xpath>
-                        <value>
-                            <settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
-                        </value>
-                </li>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/PawnKindDef[defName="BTS_Chairman"]/techHediffsRequired</xpath>
-                        <value>
-                            <li>StoneskinGland</li>
-                        </value>
-                </li>
             </operations>
         </match>
     </Operation>
+
 
 </Patch>

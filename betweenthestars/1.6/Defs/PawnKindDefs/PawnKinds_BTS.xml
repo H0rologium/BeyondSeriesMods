@@ -157,6 +157,16 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
         <biocodeWeaponChance>0.15</biocodeWeaponChance>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>4~20</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>3~12</range>
+            </li>
+        </skills>
         <canBeSapper>true</canBeSapper>
 
     </PawnKindDef>
