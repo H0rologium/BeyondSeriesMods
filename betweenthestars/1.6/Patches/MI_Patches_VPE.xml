@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-
-
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Pirates</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/PawnKindDef[defName="BTS_POWER_Heavy"]/apparelRequired</xpath>
+                    <value>
+                        <apparelRequired>
+                            <li>VFEP_Warcasket_Warcasket</li>
+                            <li>VFEP_WarcasketShoulders_Warcasket</li>
+                            <li>VFEP_WarcasketHelmet_Warcasket</li>
+                        </apparelRequired>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
 </Patch>

@@ -63,7 +63,8 @@
         <nomatch Class="PatchOperationAdd">
             <xpath>/Defs/PawnKindDef[defName="BTS_Chairman"]/techHediffsRequired</xpath>
                 <value>
-                    <li>Painstopper</li>
+                    <li>BionicLeg</li>
+                    <li>BionicArm</li>
                 </value>
         </nomatch>
     </Operation>

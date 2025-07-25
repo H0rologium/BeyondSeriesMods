@@ -65,6 +65,7 @@
 
         <apparelTags>
             <li>IndustrialBasic</li>
+            <li>BeltDefensePop</li>
             <li>IndustrialAdvanced</li>
         </apparelTags>
         <apparelRequired>
@@ -150,7 +151,7 @@
 				<li>
                     <thingDef>Silver</thingDef>
                     <countRange>
-                        <min>1</min>
+                        <min>5</min>
                         <max>50</max>
                     </countRange>
                 </li>
@@ -171,6 +172,389 @@
 
     </PawnKindDef>
 
+    <!-- Expendable Starway infantrymen -->
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+
+        <defName>BTS_POWER_Frontierman</defName>
+        <label>staryway infantryman</label>
+        <combatPower>170</combatPower>
+        <initialWillRange>45~70</initialWillRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_ArmorHelmetRecon</li>
+            <li>Apparel_ArmorRecon</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+        <apparelMoney>
+			<min>350</min>
+			<max>3000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>400</min>
+			<max>800</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+            <li>Minigun</li>
+        </weaponTags>
+        <combatEnhancingDrugsChance>0.01</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>1</max>
+		</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>10</min>
+                        <max>80</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <biocodeWeaponChance>0.3</biocodeWeaponChance>
+        <techHediffsRequired>
+			<li>DeathAcidifier</li>
+        </techHediffsRequired>
+    </PawnKindDef>
+
+    <!-- Rangers comprise the main attack forces of Starway Incorporations enforcement teams -->
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+
+        <defName>BTS_POWER_Marksman</defName>
+        <label>starway ranger</label>
+        <combatPower>180</combatPower>
+        <initialWillRange>45~70</initialWillRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_ArmorHelmetRecon</li>
+            <li>Apparel_ArmorRecon</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelMoney>
+			<min>500</min>
+			<max>3000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>500</min>
+			<max>1200</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+            <li>Minigun</li>
+            <li>Flamethrower</li>
+            <li>GunSingleUse</li>
+        </weaponTags>
+        <combatEnhancingDrugsChance>0.05</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>1</max>
+		</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>19</min>
+                        <max>99</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <biocodeWeaponChance>0.6</biocodeWeaponChance>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>9~19</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>8~19</range>
+            </li>
+        </skills>
+        <techHediffsRequired>
+			<li>DeathAcidifier</li>
+            <li>BionicLeg</li>
+            <li>BionicArm</li>
+        </techHediffsRequired>
+    </PawnKindDef>
+
+    <!-- Heavy strike unit -->
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+
+        <defName>BTS_POWER_Heavy</defName>
+        <label>heavy trooper</label>
+        <combatPower>180</combatPower>
+        <initialWillRange>45~70</initialWillRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_PowerArmorHelmet</li>
+            <li>Apparel_PowerArmor</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelMoney>
+			<min>350</min>
+			<max>3000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>1010</min>
+			<max>3000</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+        <combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>1</max>
+		</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>30</min>
+                        <max>80</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <biocodeWeaponChance>0.8</biocodeWeaponChance>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~19</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>7~18</range>
+            </li>
+        </skills>
+        <techHediffsRequired>
+			<li>DeathAcidifier</li>
+            <li>BionicLeg</li>
+            <li>BionicArm</li>
+        </techHediffsRequired>
+    </PawnKindDef>
+
+    <!-- Think of the technical from LWOTC -->
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+
+        <defName>BTS_POWER_Technical</defName>
+        <label>starway technical</label>
+        <combatPower>210</combatPower>
+        <initialWillRange>45~70</initialWillRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_PowerArmorHelmet</li>
+            <li>Apparel_PowerArmor</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+        <apparelMoney>
+			<min>350</min>
+			<max>3000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>1000</min>
+			<max>2400</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>GunSingleUse</li>
+            <li>Flamethrower</li>
+        </weaponTags>
+        <combatEnhancingDrugsChance>0.7</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>1</max>
+		</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>30</min>
+                        <max>80</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <biocodeWeaponChance>0.9</biocodeWeaponChance>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~19</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>7~18</range>
+            </li>
+        </skills>
+        <techHediffsRequired>
+			<li>DeathAcidifier</li>
+            <li>BionicLeg</li>
+            <li>BionicArm</li>
+        </techHediffsRequired>
+    </PawnKindDef>
+
+    <!-- Gauss light  -->
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+
+        <defName>BTS_GAUSS_Light</defName>
+        <label>gauss trooper</label>
+        <combatPower>220</combatPower>
+        <initialWillRange>45~70</initialWillRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_PowerArmorHelmet</li>
+            <li>Apparel_PowerArmor</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelMoney>
+			<min>350</min>
+			<max>3000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>1125</min>
+			<max>5000</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>BeamGraserPistol</li>
+            <li>BeamGraserGun</li>
+        </weaponTags>
+        <combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>1</max>
+		</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>30</min>
+                        <max>80</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <biocodeWeaponChance>1</biocodeWeaponChance>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~19</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>7~18</range>
+            </li>
+        </skills>
+        <techHediffsRequired>
+			<li>DeathAcidifier</li>
+            <li>BionicLeg</li>
+            <li>BionicArm</li>
+            <li>Painstopper</li>
+        </techHediffsRequired>
+    </PawnKindDef>
+
+    <!-- Gauss Heavy -->
+
+    <PawnKindDef ParentName="BTS_Starliner_Base">
+
+        <defName>BTS_GAUSS_Heavy</defName>
+        <label>heavy gauss trooper</label>
+        <combatPower>220</combatPower>
+        <initialWillRange>45~70</initialWillRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Apparel_PowerArmorHelmet</li>
+            <li>Apparel_PowerArmor</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelMoney>
+			<min>350</min>
+			<max>3000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>1235</min>
+			<max>5000</max>
+		</weaponMoney>
+        <weaponTags>
+            <li>WeaponBeamMinigun</li>
+            <li>WeaponBeamRepeater</li>
+            <!--<li>HellsphereCannonGun</li>-->
+        </weaponTags>
+        <combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>1</max>
+		</combatEnhancingDrugsCount>
+        <inventoryOptions>
+			<skipChance>0.15</skipChance>
+			<subOptionsChooseOne>
+				<li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>30</min>
+                        <max>80</max>
+                    </countRange>
+                </li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <biocodeWeaponChance>1</biocodeWeaponChance>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~19</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>7~18</range>
+            </li>
+        </skills>
+        <techHediffsRequired>
+			<li>DeathAcidifier</li>
+            <li>BionicLeg</li>
+            <li>BionicArm</li>
+            <li>Painstopper</li>
+        </techHediffsRequired>
+    </PawnKindDef>
 
     <!-- Chairmen hold the most important role to Starway: making the stakeholders happy. They might be embezzling a little of the company's income to give them the best gear money can buy-->
 
@@ -179,7 +563,7 @@
 		<label>chairman</label>
 		<labelPlural>chairmen</labelPlural>
 		<factionLeader>true</factionLeader>
-		<combatPower>350</combatPower>
+		<combatPower>260</combatPower>
 		<canBeSapper>true</canBeSapper>
         <initialWillRange>80~95</initialWillRange>
 		<initialResistanceRange>50~90</initialResistanceRange>
