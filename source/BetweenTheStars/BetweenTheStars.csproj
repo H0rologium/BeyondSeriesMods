@@ -60,6 +60,7 @@
     <Compile Include="GenStep_Terminal.cs" />
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="InternalDefOf.cs" />
+    <Compile Include="JobDriver_ActivateMachine.cs" />
     <Compile Include="JobDriver_UseDecryptionBench.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <ThingDef ParentName="BenchBase">
+    <defName>QuantRSB</defName>
+    <label>research chamber</label>
+    <description>A chamber seemingly designed to focus in on the mind of a person. Its design suggests its ability to focus and direct stellar particles at an individual</description>
+    <thingClass>Building_ResearchBench</thingClass>
+    <thingCategories Inherit="False">
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <size>(3,3)</size>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <rotatable>false</rotatable>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <!--<costStuffCount>400</costStuffCount>-->
+    <costList>
+      <Steel>400</Steel>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <graphicData>
+      <texPath>Things/Building/QuantChamber</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--<shaderType>CutoutComplex</shaderType>-->
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>80</pathCost>
+    <statBases>
+      <MaxHitPoints>2500</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <ResearchSpeedFactor>1.0</ResearchSpeedFactor>
+    </statBases>
+    <comps Inherit="False">
+      <li Class="CompProperties_ReportWorkSpeed">
+        <workSpeedStat>ResearchSpeedFactor</workSpeedStat>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2000</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MultiAnalyzer</li>
+        </linkableFacilities>
+      </li>
+      <!--<li Class="CompProperties_Usable">
+        <useJob>UseQRB</useJob>
+        <useLabel>Activate the Machine</useLabel>
+        <useDuration>600</useDuration>
+        <floatMenuFactionIcon>BTS_Starway</floatMenuFactionIcon>
+      </li>-->
+    </comps>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,0)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>PlaceWorker_DrawLinesToBookcasesInRoom</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>QuantUnderstand</li>
+    </researchPrerequisites>
+    <building>
+      <paintable>false</paintable>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.4</workTableNotInRoomRoleFactor>
+    </building>
+  </ThingDef>
 
 
 </Defs>

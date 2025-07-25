@@ -44,7 +44,7 @@
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
         <inspectorTabs>
-        <li>ITab_Bills</li>
+            <li>ITab_Bills</li>
         </inspectorTabs>
         <building>
         <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -73,7 +73,7 @@
         <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
         <researchPrerequisites>
-            <li>MicroelectronicsBasics</li>
+            <li>Machining</li>
         </researchPrerequisites>
     </ThingDef>
 

@@ -10,4 +10,7 @@
     <EnforcementSentLabel>RE: Contract Broken</EnforcementSentLabel>
     <EnforcementSent>Greetings, this is an automated message from Starway Incorporated.\n\n\nYou have failed to comply with the regulations broken as previously discussed within the alotted time frame of -[Negative 3]- days. As such, we have no choice but to ensure the security of Starway Incorporated's data.\n\nYou have been warned.\n    -Regards,\n    Starway Incorporated</EnforcementSent>
 
+
+    <CantReaccess>You should not provoke them again</CantReaccess>
+
 </LanguageData>

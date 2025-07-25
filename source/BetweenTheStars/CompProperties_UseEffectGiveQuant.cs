@@ -26,7 +26,7 @@ namespace BetweenTheStars
                 IntVec3 intVec = DropCellFinder.RandomDropSpot(map, true);
                 List<Thing> list = new List<Thing>();
                 Thing t = new Thing();
-                t.def = InternalDefOf.DecryptionBench;
+                t.def = InternalDefOf.QuantRSB;
                 MinifiedThing minifiedThing = t.MakeMinified(DestroyMode.Vanish);
                 list.Add(minifiedThing);
                 DropPodUtility.DropThingsNear(intVec, map, list, 110, false, true, true, false, false, null);

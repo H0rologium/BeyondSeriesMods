@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>QRT</defName>
+        <label>Archotech</label>
+        <generalTitle>Archotech research projects</generalTitle>
+        <generalDescription>You have to know how to take the first step...</generalDescription>
+        <visibleByDefault>true</visibleByDefault>
+    </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>QuantUnderstand</defName>
+    <label>understanding the machine</label>
+    <description>Step inside and discover a new age of technology</description>
+    <baseCost>10</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>QRT</tab>
+    <requiredResearchBuilding>QuantRSB</requiredResearchBuilding>
+    <researchViewX>2.7</researchViewX>
+    <researchViewY>0.2</researchViewY>
+    <discoveredLetterTitle>⠀</discoveredLetterTitle>
+    <discoveredLetterText>Once you stepped inside the machine, it whirred to life. The chamber felt chillingly cold as if the machine exposed you to the vacuum of space itself. As you stand inside, your head feels heavy, your brain feels taxed. Its then that you understand the machine, and its function.\n\nAs bits of information float into your mind, you realize what the data Starway was trying to keep secret revealed. It was research into the supernatural beings known as Archotechs. Starway had tried and failed to understand how the technology behind their creations worked.\n\nYou sense that more time within the machine will possibly unveil some of these grand mysteries to you. In the same way you would throw a dart at a target, you could possibly try to recreate some of the ancient technology. In time.\n\nThis first foray into the unknown leaves you with thoughts behind the design of the machine itself. You can now build a replacement if you lose the original.</discoveredLetterText>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->archotech</li>
+
+        <li>subject_story->was exposed to the vastness of the space between stars</li>
+        <li>subject_story->began to understand what they were trying to hide</li>
+        <li>subject_story->dipped theirself into the abyss beyond the sky</li>
+
+        <li>subject_gerund->acknowledging archotech</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+
+</Defs>

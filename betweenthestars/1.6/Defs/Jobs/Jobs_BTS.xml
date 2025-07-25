@@ -7,4 +7,9 @@
     <reportString>decrypting TargetA.</reportString>
   </JobDef>
 
+  <!--<JobDef>
+    <defName>UseQRB</defName>
+    <driverClass>BetweenTheStars.JobDriver_ActivateMachine</driverClass>
+    <reportString>activating.</reportString>
+  </JobDef>-->
 </Defs>
