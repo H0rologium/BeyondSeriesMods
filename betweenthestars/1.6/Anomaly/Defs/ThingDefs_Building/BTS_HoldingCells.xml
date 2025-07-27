@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+    <ThingDef ParentName="HoldingPlatformBase">
+        <defName>BTSHoldingPlatform</defName>
+        <label>reinforced holding platform</label>
+        <description>A platform for holding dangerous entities. This reinforced edition provides a bonus to containment strength on its own.</description>
+        <graphicData>
+            <texPath>Things/Building/HoldingPlatform/HoldingPlatform</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3, 3)</drawSize>
+        </graphicData>
+        <researchPrerequisites>
+            <li>Electroharvester</li>
+        </researchPrerequisites>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <statBases>
+            <MaxHitPoints>800</MaxHitPoints>
+            <WorkToBuild>4000</WorkToBuild>
+            <Mass>60</Mass>
+            <Flammability>0.3</Flammability>
+            <ContainmentStrength>15</ContainmentStrength>
+        </statBases>
+        <costList>
+            <Uranium>20</Uranium>
+            <Bioferrite>100</Bioferrite>
+        </costList>
+        <comps>
+        <li Class="CompProperties_EntityHolderPlatform">
+            <untetheredGraphicTexPath>Things/Building/HoldingPlatform/HoldingPlatform_ChainsUntethered</untetheredGraphicTexPath>
+            <tilingChainTexPath>Things/Building/HoldingPlatform/HoldingPlatform_EntityChain_StrongOutline</tilingChainTexPath>
+            <baseChainFastenerTexPath>Things/Building/HoldingPlatform/HoldingPlatform_ChainFastener</baseChainFastenerTexPath>
+            <targetChainFastenerTexPath>Things/Building/HoldingPlatform/HoldingPlatform_ChainFastener_StrongOutline</targetChainFastenerTexPath>
+            <entityLungeSoundHi>EntityChainHigh</entityLungeSoundHi>
+            <entityLungeSoundLow>EntityChainLow</entityLungeSoundLow>
+        </li>
+        </comps>
+  </ThingDef>
+</Defs>

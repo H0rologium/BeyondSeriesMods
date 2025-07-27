@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<Defs> 
+
+    <TerrainDef Name="BTSBridgeBase" Abstract="True">
+      <layerable>true</layerable>
+      <bridge>true</bridge>
+      <isFoundation>true</isFoundation>
+      <isPaintable>false</isPaintable>
+      <designationCategory>Structure</designationCategory>
+      <fertility>0</fertility>
+      <preventCraters>true</preventCraters>
+      <edgeType>Hard</edgeType>
+      <renderPrecedence>400</renderPrecedence>
+      <autoRebuildable>true</autoRebuildable>
+      <tags>
+        <li>Floor</li>
+      </tags>
+      <drawStyleCategory>Foundations</drawStyleCategory>
+      <destroyBuildingsOnDestroyed>true</destroyBuildingsOnDestroyed>
+      <destroyEffect>Bridge_Collapse</destroyEffect>
+      <destroyEffectWater>Bridge_CollapseWater</destroyEffectWater>
+      <terrainAffordanceNeeded>BTSBridgeable</terrainAffordanceNeeded>
+      <cropIcon>false</cropIcon>
+    </TerrainDef>
+
+    <TerrainDef ParentName="BTSBridgeBase">
+      <defName>BTSBridge</defName>
+      <label>heavy reinforced bridge</label>
+      <description>A plasteel reinforced bridge that allows you to build over extreme terrain like Lava. Be careful - if a bridge falls, buildings on top of it fall as well.\n\nKeep flammable objects away from the edges, build with caution.</description>
+      <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+      <bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>
+      <color>(95,167,206)</color>
+      <uiIconPath>Terrain/Misc/HeavyBridge_MenuIcon</uiIconPath>
+      <affordances>
+        <li>Light</li>
+        <li>Medium</li>
+        <li>Heavy</li>
+        <li>Walkable</li>
+        <li>BTSBridgeable</li>
+      </affordances>
+      <constructEffect>ConstructMetal</constructEffect>
+      <statBases>
+        <WorkToBuild>1900</WorkToBuild>
+        <Flammability>0</Flammability>
+      </statBases>
+      <costList>
+        <Plasteel>8</Plasteel>
+      </costList>
+      <destroyOnBombDamageThreshold>45</destroyOnBombDamageThreshold>
+      <researchPrerequisites>
+        <li>BasicGravtech</li>
+        <li>HeavyBridges</li>
+      </researchPrerequisites>
+    </TerrainDef>
+
     <!--<ThingDef ParentName="BenchBase">
     <defName>QuantRSB</defName>
     <label>research chamber</label>

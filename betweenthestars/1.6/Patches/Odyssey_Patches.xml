@@ -1,6 +1,294 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-        
-        
+        <!--Check for affordances -->
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="LavaDeep"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="LavaDeep"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
 
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="Riverbank"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="Riverbank"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="SoftSand"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="SoftSand"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="Mud"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="Mud"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="WaterDeep"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="WaterDeep"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="WaterOceanDeep"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="WaterOceanDeep"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="WaterMovingChestDeep"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="WaterMovingChestDeep"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="WaterShallow"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="WaterShallow"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="WaterOceanShallow"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="WaterOceanShallow"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="WaterMovingShallow"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="WaterMovingShallow"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterDeep"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="ToxicWaterDeep"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterOceanDeep"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="ToxicWaterOceanDeep"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterMovingChestDeep"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="ToxicWaterMovingChestDeep"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterShallow"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="ToxicWaterShallow"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterOceanShallow"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="ToxicWaterOceanShallow"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterMovingShallow"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="ToxicWaterMovingShallow"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <Operation Class="PatchOperationConditional">
+            <xpath>Defs/TerrainDef[defName="Marsh"]/affordances</xpath>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/TerrainDef[defName="Marsh"]</xpath>
+                <value>
+                    <affordances />
+                </value>
+            </nomatch>
+        </Operation>
+
+        <!-- Update affordances -->
+        
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="LavaDeep"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="Riverbank"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="SoftSand"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="Mud"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="WaterDeep"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="WaterOceanDeep"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="WaterMovingChestDeep"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="WaterShallow"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="WaterOceanShallow"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="WaterMovingShallow"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="Marsh"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterDeep"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterOceanDeep"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterMovingChestDeep"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterShallow"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterOceanShallow"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="ToxicWaterMovingShallow"]/affordances</xpath>
+            <value>
+                <li>BTSBridgeable</li>
+            </value>
+        </Operation>
 </Patch>

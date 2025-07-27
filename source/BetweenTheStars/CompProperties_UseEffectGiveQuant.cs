@@ -33,6 +33,8 @@ namespace BetweenTheStars
                 {
                     Find.LetterStack.ReceiveLetter("FactionBetrayedLabel".Translate(), "FactionBetrayed".Translate(), LetterDefOf.ThreatSmall);
                     SendLoyaltyRaid(1,map);
+                    Find.LetterStack.ReceiveLetter("ResearchAccessedLabel".Translate(), "ResearchAccessed".Translate(), LetterDefOf.ThreatSmall);
+                    GenSpawn.Spawn(ThingDefOf.ComponentIndustrial, user.Position, Find.CurrentMap);
                 }
                 //IntVec3 intVec = DropCellFinder.RandomDropSpot(map, true);
                 //List<Thing> list = new List<Thing>();

@@ -21,7 +21,7 @@
     <intricate>true</intricate>
     <statBases>
       <Mass>0.5</Mass>
-      <MarketValue>0</MarketValue>
+      <MarketValue>700</MarketValue>
     </statBases>
     <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
     <allowedArchonexusCount>0</allowedArchonexusCount>

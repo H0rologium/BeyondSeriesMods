@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <TerrainAffordanceDef>
+        <defName>BTSBridgeable</defName>
+        <label>reinforced bridgeable</label>
+        <order>2450</order>
+    </TerrainAffordanceDef>
+
+</Defs>

@@ -14,11 +14,13 @@ namespace BetweenTheStars
             DefOfHelper.EnsureInitializedInCtor(typeof(InternalDefOf));
         }
 
+        //Adds vanilla defs bench for usability
+        public static ThingDef HiTechResearchBench;
+        public static ResearchProjectDef Fabrication;
+
         public static ThingDef ArchoComponent;
 
         public static ResearchProjectDef QuantUnderstand;
-
-        public static ThingDef DecryptionBench;
 
         public static FactionDef BTS_Starway;
 

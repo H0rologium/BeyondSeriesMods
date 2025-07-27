@@ -13,6 +13,103 @@
                         <nakedChance>0</nakedChance>
                     </value>
                 </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="Make_MechResurrect"]/ingredients</xpath>
+                    <value>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Shard</li>
+                            </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Bioferrite</li>
+                            </thingDefs>
+                            </filter>
+                            <count>30</count>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="Make_MechHeal"]/ingredients</xpath>
+                    <value>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Bioferrite</li>
+                            </thingDefs>
+                            </filter>
+                            <count>40</count>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="Make_ShockLance"]/ingredients</xpath>
+                    <value>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Bioferrite</li>
+                            </thingDefs>
+                            </filter>
+                            <count>40</count>
+                        </li>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Shard</li>
+                            </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="Make_InsanityLance"]/ingredients</xpath>
+                    <value>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Bioferrite</li>
+                            </thingDefs>
+                            </filter>
+                            <count>40</count>
+                        </li>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Shard</li>
+                            </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="Make_SC"]/ingredients</xpath>
+                    <value>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Bioferrite</li>
+                            </thingDefs>
+                            </filter>
+                            <count>80</count>
+                        </li>
+                        <li>
+                            <filter>
+                            <thingDefs>
+                                <li>Shard</li>
+                            </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>

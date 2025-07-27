@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <ResearchAccessedLabel>Decryption: Complete</ResearchAccessedLabel>
-    <ResearchAccessed>Once the data was decrypted, it was easy to read into it. However, all the data seems to be some sort of sensor readings; phsyics equations littering long documents of mathematical terms that dont make sense.\n\nThe only content that is understandable is a series of addresses and TLS ids. Only one seems to be active. The computer systems in the bench whir as a triggered script contacts the remaining connection. There's no stopping the outbound message, signaling some unknown recipient of your existence.\n\nThere's a noise as a lone transport pod enters the atmosphere nearby. What could it be?</ResearchAccessed>
+    <ResearchAccessedLabel>Data Exploit</ResearchAccessedLabel>
+    <ResearchAccessed>While decrypting the data from the object has triggered an automated response system from Starway, its security is not the most robust. Once you complete the research into the fundamentals of archotech, Starway's automated systems will no longer detect you, preventing enforcement raids from happening in the future.</ResearchAccessed>
 
     <FactionBetrayedLabel>Contract Broken</FactionBetrayedLabel>
-    <FactionBetrayed>Greetings, this is an automated message from Starway Incorporated.\n\n\nAs per the contract agreement that was signed for you, Clause 4 of the "Research Coalescence Protection Law" that is self-published and maintained by Starway has been violated by an unknown actor operating from your area. As detailed in Clause 5, you are to be put to fault for this breach of contract and of data.\n\nYou have -[Negative 3]- days to comply before Starway decides to terminate all business with you and condemn you.\n\nWe apologize for the inconvenience!</FactionBetrayed>
+    <FactionBetrayed>Greetings, this is an automated message from Starway Incorporated.\n\n\nAs per the contract agreement that was signed for you, Clause 4 of the "Research Coalescence Protection Law" that is self-published and maintained by Starway has been violated by an unknown actor operating from your area. As detailed in Clause 5, you are to be put to fault for this breach of contract and of data.\n\nYou have -[Negative 3]- days to comply before Starway decides to send an enforcement squad to ensure company loyalty\n\nWe apologize for the inconvenience, and await your compliance.</FactionBetrayed>
 
     <EnforcementSentLabel>RE: Contract Broken</EnforcementSentLabel>
     <EnforcementSent>Greetings, this is an automated message from Starway Incorporated.\n\n\nYou have failed to comply with the regulations broken as previously discussed within the alotted time frame of -[Negative 3]- days. As such, we have no choice but to ensure the security of Starway Incorporated's data.\n\nYou have been warned.\n    -Regards,\n    Starway Incorporated</EnforcementSent>
-
-
-    <CantReaccess>You should not provoke them again</CantReaccess>
 
 </LanguageData>

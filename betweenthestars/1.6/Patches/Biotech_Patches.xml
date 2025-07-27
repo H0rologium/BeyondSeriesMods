@@ -19,19 +19,19 @@
                     <value>
                         <xenotypeSet>
                             <xenotypeChances>
-                                <Starborn>0.3</Starborn>
+                                <BTSX_Starborn>0.3</BTSX_Starborn>
                                 <Baseliner>0.3</Baseliner>
                                 <Hussar>0.35</Hussar>
                                 <Genie>0.05</Genie>
-                                <Starjack MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">0.26</Starjack>
+                                <Starjack>0.26</Starjack>
                             </xenotypeChances>
                         </xenotypeSet>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/PawnKindDef[defName="BTS_Chariman"]</xpath>
+                    <xpath>Defs/PawnKindDef[defName="BTS_Chairman"]</xpath>
                     <value>
-                        <xenotypeSet Inherit="False">
+                        <xenotypeSet>
                             <xenotypeChances>
                                 <BTSX_Starborn>900</BTSX_Starborn>
                                 <Genie>99</Genie>
@@ -40,10 +40,36 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/PawnKindDef[defName="AncientResearchCore"]/comps/li[@Class="CompProperties_UseEffectPlaySound"]/soundOnUsed</xpath>
+                    <xpath>Defs/ThingDef[defName="AncientResearchCore"]/comps/li[@Class="CompProperties_UseEffectPlaySound"]/soundOnUsed</xpath>
                     <value>
                         <soundOnUsed>DatacoreRead</soundOnUsed>
                     </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/RecipeDef[defName="Make_PersonaCore"]/ingredients</xpath>
+                        <value>
+                            <li>
+                                <filter>
+                                <thingDefs>
+                                    <li>SubcoreHigh</li>
+                                </thingDefs>
+                                </filter>
+                                <count>1</count>
+                            </li>
+                        </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/RecipeDef[defName="Make_SC"]/ingredients</xpath>
+                        <value>
+                            <li>
+                                <filter>
+                                <thingDefs>
+                                    <li>SubcoreRegular</li>
+                                </thingDefs>
+                                </filter>
+                                <count>1</count>
+                            </li>
+                        </value>
                 </li>
             </operations>
         </match>
@@ -51,7 +77,6 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Biotech</li>
             <li>Jaguar and Snow Leopard Xenotypes</li>
         </mods>
         <match Class="PatchOperationSequence">

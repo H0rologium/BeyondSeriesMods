@@ -23,7 +23,7 @@ namespace BetweenTheStars
             IntVec3 spIV;
             if (!TryFindCell(map, out spIV)) return;
             var spawnChance = UnityEngine.Random.Range(1.0f, 100.0f);
-            if (spawnChance < 48f) { Log.Message("[BTS] Skipped terminal generation. this is normal behaviour."); return; }
+            if (spawnChance < 48f || !InternalDefOf.Fabrication.IsFinished) { Log.Message("[BTS] Skipped terminal generation. this is normal behaviour."); return; }
             atcDef = DefDatabase<ThingDef>.GetNamed("AncientTerminalQuantSegment", true);
             GenSpawn.Spawn(this.atcDef,spIV,map,WipeMode.Vanish);
             //Log.Message("Spawned ancient terminal");

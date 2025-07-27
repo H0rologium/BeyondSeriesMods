@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="BTSSpacerMakeableBase" Abstract="True">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>15</Crafting>
+            </skillRequirements>
+            <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+            <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+    </ThingDef>
+
+    <RecipeDef ParentName="BTSSpacerMakeableBase">
+        <defName>Make_TG</defName>
+        <label>make tornado generator</label>
+        <description>Allows you to create a tornado generator</description>
+        <jobString>Creating a tornado generator.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>16000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>AncientResearchCore</li>
+                </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Gold</li>
+                </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <TornadoGenerator>1</TornadoGenerator>
+        </products>
+        <researchPrerequisites>
+            <li>AdvancedGravtech</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <RecipeDef ParentName="BTSSpacerMakeableBase">
+        <defName>Make_SC</defName>
+        <label>make sentience catalyst</label>
+        <description>Allows you to create a sentience catalyst</description>
+        <jobString>Creating a catalyst.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>16000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>AncientResearchCore</li>
+                </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Gold</li>
+                </thingDefs>
+                </filter>
+                <count>9</count>
+            </li>
+        </ingredients>
+        <products>
+            <SentienceCatalyst>1</SentienceCatalyst>
+        </products>
+        <researchPrerequisites>
+            <li>ShipCryptosleep</li>
+            <li>ShipComputerCore</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+        <skillRequirements Inherit="False">
+            <Crafting>18</Crafting>
+        </skillRequirements>
+    </RecipeDef>
+
+</Defs>

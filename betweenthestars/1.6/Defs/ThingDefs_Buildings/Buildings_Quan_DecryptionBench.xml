@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BenchBase">
+    <!--<ThingDef ParentName="BenchBase">
         <defName>DecryptionBench</defName>
         <label>manufacturing and Decryption Bench</label>
         <description>A modified machining table that can be used to manufacture goods. Approved design by Starway Incorporated.\nThe table's design includes advanced computational power, but it is not known as to why.</description>
@@ -23,6 +23,7 @@
         </graphicData>
         <costList>
             <Steel>100</Steel>
+            <Plasteel>100</Plasteel>
             <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <constructEffect>ConstructMetal</constructEffect>
@@ -31,9 +32,9 @@
         <useHitPoints>True</useHitPoints>
         <statBases>
             <WorkToBuild>3000</WorkToBuild>
-            <MaxHitPoints>220</MaxHitPoints>
-            <Flammability>0.5</Flammability>
-            <Cleanliness>-1</Cleanliness>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <Cleanliness>0</Cleanliness>
         </statBases>
         <size>(3,1)</size>
         <designationCategory>Production</designationCategory>
@@ -60,6 +61,10 @@
             <shortCircuitInRain>true</shortCircuitInRain>
             <basePowerConsumption>250</basePowerConsumption>
         </li>
+        <li Class="CompProperties_Glower">
+            <glowRadius>5</glowRadius>
+            <glowColor>(73,123,138,0)</glowColor>
+        </li>
         <li Class="CompProperties_Flickable"/>
         <li Class="CompProperties_AffectedByFacilities">
             <linkableFacilities>
@@ -79,6 +84,6 @@
             <li>Machining</li>
         </researchPrerequisites>
         
-    </ThingDef>
+    </ThingDef>-->
 
 </Defs>

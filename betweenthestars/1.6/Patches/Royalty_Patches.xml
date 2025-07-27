@@ -16,6 +16,15 @@
                             </apparelRequired>
                         </value>
                 </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="Make_SC"]/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>NeuralComputation</li>
+                                <li>QuantUnderstand</li>
+                            </researchPrerequisites>
+                        </value>
+                </li>
             </operations>
         </match>
     </Operation>

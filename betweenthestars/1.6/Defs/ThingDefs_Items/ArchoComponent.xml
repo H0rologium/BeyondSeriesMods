@@ -16,9 +16,11 @@
     <tradeability>None</tradeability>
     <selectable>true</selectable>
     <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
       <Mass>0.3</Mass>
-      <Flammability>0.15</Flammability>
-      <MarketValue>0</MarketValue>
+      <Flammability>0.3</Flammability>
+      <MarketValue>1000</MarketValue>
+      <DeteriorationRate>2.0</DeteriorationRate>
     </statBases>
     <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
     <allowedArchonexusCount>5</allowedArchonexusCount>
@@ -27,7 +29,7 @@
     <stackLimit>15</stackLimit>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    
+    <allowedArchonexusCount>5</allowedArchonexusCount>
     
     </ThingDef>
 

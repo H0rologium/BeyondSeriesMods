@@ -7,10 +7,11 @@
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
             <recipeUsers>
-                <li>DecryptionBench</li>
+                <li>FabricationBench</li>
             </recipeUsers>
             <skillRequirements>
                 <Crafting>11</Crafting>
+                <Intellectual>8</Intellectual>
             </skillRequirements>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
             <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
@@ -24,7 +25,7 @@
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
-        <workAmount>12000</workAmount>
+        <workAmount>8000</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -43,7 +44,374 @@
         <products>
             <ArchoComponent>1</ArchoComponent>
         </products>
+        <skillRequirements Inherit="False">
+            <Crafting>5</Crafting>
+        </skillRequirements>
     </RecipeDef>
 
-    
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_PersonaCore</defName>
+        <label>make persona core</label>
+        <description>Allows you to create persona cores</description>
+        <jobString>creating a new persona core.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>15000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+        </ingredients>
+        <products>
+            <AIPersonaCore>1</AIPersonaCore>
+        </products>
+        <researchPrerequisites>
+            <li>ShipComputerCore</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_Vanometric</defName>
+        <label>make a vanometric power cell</label>
+        <description>Allows you to create vanometric power cells</description>
+        <jobString>creating a power cell.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>18000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <VanometricPowerCell>1</VanometricPowerCell>
+        </products>
+        <researchPrerequisites>
+            <li>ShipReactor</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_MechHeal</defName>
+        <label>make a mech healer serum</label>
+        <description>Allows you to create mechanoid healing serums</description>
+        <jobString>creating a serum.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>15000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Gold</li>
+                </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <MechSerumHealer>1</MechSerumHealer>
+        </products>
+        <researchPrerequisites>
+            <li>ShipCryptosleep</li>
+            <li>VitalsMonitor</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_MechResurrect</defName>
+        <label>make a mech healer serum</label>
+        <description>Allows you to create mechanoid ressurection serums</description>
+        <jobString>creating a serum.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>16000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Gold</li>
+                </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <MechSerumResurrector>1</MechSerumResurrector>
+        </products>
+        <researchPrerequisites>
+            <li>ShipCryptosleep</li>
+            <li>VitalsMonitor</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+        <skillRequirements Inherit="False">
+            <Crafting>15</Crafting>
+            <Intellectual>10</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_OrbitalBeam</defName>
+        <label>make an orbital beam targeter</label>
+        <description>Allows you to create orbital power beam targeters</description>
+        <jobString>creating a usable item.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>15000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Uranium</li>
+                </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+        </ingredients>
+        <products>
+            <OrbitalTargeterPowerBeam>1</OrbitalTargeterPowerBeam>
+        </products>
+        <researchPrerequisites>
+            <li>OrbitalTech</li>
+            <li>ShipEngine</li>
+            <li>BeamWeapons</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+        <skillRequirements Inherit="False">
+            <Crafting>8</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_ShockLance</defName>
+        <label>make a psychic shock lance</label>
+        <description>Allows you to create psychic shock lances</description>
+        <jobString>creating a lance.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>15000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>70</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Uranium</li>
+                </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Apparel_PsychicShockLance>1</Apparel_PsychicShockLance>
+        </products>
+        <researchPrerequisites>
+            <li>ShipCryptosleep</li>
+            <li>VitalsMonitor</li>
+            <li>ShipComputerCore</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+        <skillRequirements Inherit="False">
+            <Crafting>17</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_InsanityLance</defName>
+        <label>make a psychic insanity lance</label>
+        <description>Allows you to create psychic insanity lances</description>
+        <jobString>creating a lance.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>15000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>70</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Uranium</li>
+                </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <Apparel_PsychicInsanityLance>1</Apparel_PsychicInsanityLance>
+        </products>
+        <researchPrerequisites>
+            <li>ShipCryptosleep</li>
+            <li>VitalsMonitor</li>
+            <li>ShipComputerCore</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+        <skillRequirements Inherit="False">
+            <Crafting>17</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+
+
 </Defs>

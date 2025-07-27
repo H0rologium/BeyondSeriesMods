@@ -3,14 +3,14 @@
 
      <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Carrying Capacity Genes</li>
+            <li>Core</li>
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/XenotypeDef[defName="BTSX_Starborn"]/genes</xpath>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VanometricPowerCell"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
                         <value>
-                            <li>NCG_Loadbearing</li>
+                            <basePowerConsumption>-1700</basePowerConsumption>
                         </value>
                 </li>
             </operations>
