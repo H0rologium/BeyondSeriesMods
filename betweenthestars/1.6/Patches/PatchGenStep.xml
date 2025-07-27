@@ -6,4 +6,11 @@
             <li>AncientTerminalQuantSegment</li>
         </value>
     </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/MapGeneratorDef[defName = "Base_Faction"]/genSteps</xpath>
+        <value>
+            <li>AncientTerminalQuantSegment</li>
+        </value>
+    </Operation>
 </Patch>

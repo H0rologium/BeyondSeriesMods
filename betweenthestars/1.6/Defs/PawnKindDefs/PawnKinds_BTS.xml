@@ -567,12 +567,7 @@
 		<canBeSapper>true</canBeSapper>
         <initialWillRange>80~95</initialWillRange>
 		<initialResistanceRange>50~90</initialResistanceRange>
-        <xenotypeSet Inherit="False">
-            <xenotypeChances>
-                <BTSX_Starborn>900</BTSX_Starborn>
-                <Genie>99</Genie>
-            </xenotypeChances>
-        </xenotypeSet>
+        
 
 		<apparelRequired>
 			<li>Apparel_PowerArmorHelmet</li>

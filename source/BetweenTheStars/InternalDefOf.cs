@@ -14,13 +14,9 @@ namespace BetweenTheStars
             DefOfHelper.EnsureInitializedInCtor(typeof(InternalDefOf));
         }
 
-        //public static JobDef UseQRB;
-
-        //public static ResearchTabDef QRT;
+        public static ThingDef ArchoComponent;
 
         public static ResearchProjectDef QuantUnderstand;
-
-        public static ThingDef QuantRSB;
 
         public static ThingDef DecryptionBench;
 

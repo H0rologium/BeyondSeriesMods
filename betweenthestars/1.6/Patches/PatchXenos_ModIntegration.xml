@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Jaguar and Snow Leopard Xenotypes</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/FactionDef[defName="BTS_Starway"]/xenotypeSet/xenotypeChances</xpath>
-                        <value>
-                            <CYB_Uncia>0.12</CYB_Uncia>
-                        </value>
-                </li>
-            </operations>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationFindMod">
+     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>Carrying Capacity Genes</li>
+            <li>Biotech</li>
         </mods>
         <match Class="PatchOperationSequence">
             <operations>

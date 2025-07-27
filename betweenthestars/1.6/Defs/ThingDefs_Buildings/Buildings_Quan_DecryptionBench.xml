@@ -22,18 +22,18 @@
         </damageData>
         </graphicData>
         <costList>
-        <Steel>100</Steel>
-        <ComponentIndustrial>3</ComponentIndustrial>
+            <Steel>100</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <constructEffect>ConstructMetal</constructEffect>
         <altitudeLayer>Building</altitudeLayer>
         <fillPercent>0.5</fillPercent>
         <useHitPoints>True</useHitPoints>
         <statBases>
-        <WorkToBuild>3000</WorkToBuild>
-        <MaxHitPoints>220</MaxHitPoints>
-        <Flammability>0.8</Flammability>
-        <Cleanliness>-1</Cleanliness>
+            <WorkToBuild>3000</WorkToBuild>
+            <MaxHitPoints>220</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <Cleanliness>-1</Cleanliness>
         </statBases>
         <size>(3,1)</size>
         <designationCategory>Production</designationCategory>
@@ -43,6 +43,9 @@
         <interactionCellOffset>(0,0,-1)</interactionCellOffset>
         <surfaceType>Item</surfaceType>
         <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <recipes>
+            <li>ButcherCorpseMechanoid</li>
+        </recipes>
         <inspectorTabs>
             <li>ITab_Bills</li>
         </inspectorTabs>
@@ -60,7 +63,7 @@
         <li Class="CompProperties_Flickable"/>
         <li Class="CompProperties_AffectedByFacilities">
             <linkableFacilities>
-            <li>ToolCabinet</li>
+                <li>ToolCabinet</li>
             </linkableFacilities>
         </li>
         <li Class="CompProperties_HeatPusher">
@@ -69,12 +72,13 @@
         </li>
         </comps>
         <placeWorkers>
-        <li>PlaceWorker_ShowFacilitiesConnections</li>
-        <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
         <researchPrerequisites>
             <li>Machining</li>
         </researchPrerequisites>
+        
     </ThingDef>
 
 </Defs>

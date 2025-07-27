@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System;
 using System.Linq;
+using UnityEngine;
 using Verse;
 using Verse.AI;
 
@@ -21,9 +22,11 @@ namespace BetweenTheStars
             if (ShouldSkipMap(map)) return;
             IntVec3 spIV;
             if (!TryFindCell(map, out spIV)) return;
+            var spawnChance = UnityEngine.Random.Range(1.0f, 100.0f);
+            if (spawnChance < 48f) { Log.Message("[BTS] Skipped terminal generation. this is normal behaviour."); return; }
             atcDef = DefDatabase<ThingDef>.GetNamed("AncientTerminalQuantSegment", true);
             GenSpawn.Spawn(this.atcDef,spIV,map,WipeMode.Vanish);
-            Log.Message("Spawned ancient terminal");
+            //Log.Message("Spawned ancient terminal");
         }
 
         protected bool TryFindCell(Map map, out IntVec3 result)
@@ -37,7 +40,7 @@ namespace BetweenTheStars
 
         protected virtual bool ShouldSkipMap(Map map)
         {
-            return !map.IsStartingMap && !map.TileInfo.WaterCovered;
+            return !map.TileInfo.OnSurface && map.TileInfo.WaterCovered;//!map.IsStartingMap
         }
 
         protected bool CanSpawnAt(IntVec3 loc, Map map)

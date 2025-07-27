@@ -11,7 +11,6 @@
                     <xpath>/Defs/PawnKindDef[defName="BTS_Chairman"]/apparelRequired</xpath>
                         <value>
                             <apparelRequired>
-                                <!--<li>Apparel_Gunlink</li>-->
                                 <li>Apparel_ArmorCataphractPrestige</li>
                                 <li>Apparel_ArmorHelmetCataphractPrestige</li>
                             </apparelRequired>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <XenotypeDef>
+  <XenotypeDef MayRequire="Ludeon.RimWorld.Biotech">
     <defName>BTSX_Starborn</defName>
     <label>Starborn</label>
     <description>A human modified to suit the need for a new, meta human. Most people are forced into taking on these adaptations from ruthless forces of power, as naturally born children do not survive long without side effects and most Starborn are sterile.</description>

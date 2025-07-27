@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ThingDef ParentName="BenchBase">
+    <!--<ThingDef ParentName="BenchBase">
     <defName>QuantRSB</defName>
     <label>research chamber</label>
-    <description>A chamber seemingly designed to focus in on the mind of a person. Its design suggests its ability to focus and direct stellar particles at an individual</description>
+    <description>A chamber seemingly designed to focus in on the mind of a person. Its design suggests its ability to focus and direct stellar particles at an individual.\n\nYou must obtain your first one through scavenging</description>
     <thingClass>Building_ResearchBench</thingClass>
     <thingCategories Inherit="False">
       <li>BuildingsSpecial</li>
@@ -14,7 +14,6 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<costStuffCount>400</costStuffCount>-->
     <costList>
       <Steel>400</Steel>
       <Plasteel>100</Plasteel>
@@ -23,7 +22,6 @@
     <graphicData>
       <texPath>Things/Building/QuantChamber</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <!--<shaderType>CutoutComplex</shaderType>-->
       <drawSize>(3,3)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -58,12 +56,12 @@
           <li>MultiAnalyzer</li>
         </linkableFacilities>
       </li>
-      <!--<li Class="CompProperties_Usable">
+      <li Class="CompProperties_Usable">
         <useJob>UseQRB</useJob>
         <useLabel>Activate the Machine</useLabel>
         <useDuration>600</useDuration>
         <floatMenuFactionIcon>BTS_Starway</floatMenuFactionIcon>
-      </li>-->
+      </li>
     </comps>
     <fillPercent>0.5</fillPercent>
     <interactionCellOffset>(0,0,0)</interactionCellOffset>
@@ -85,7 +83,7 @@
       <workTableRoomRole>Laboratory</workTableRoomRole>
       <workTableNotInRoomRoleFactor>0.4</workTableNotInRoomRoleFactor>
     </building>
-  </ThingDef>
+  </ThingDef>-->
 
 
 </Defs>

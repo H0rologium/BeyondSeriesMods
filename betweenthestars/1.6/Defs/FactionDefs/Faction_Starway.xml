@@ -67,15 +67,7 @@
         <li>Orbital_CombatSupplier</li>
         <li>Orbital_Exotic</li>
 	  </baseTraderKinds>
-    <xenotypeSet>
-      <xenotypeChances>
-          <BTSX_Starborn>0.21</BTSX_Starborn>
-          <Baseliner MayRequire="Ludeon.Rimworld.Biotech">0.28</Baseliner>
-          <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
-          <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
-          <Starjack MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">0.26</Starjack>
-      </xenotypeChances>
-    </xenotypeSet>
+    
 
     <backstoryFilters>
       <li>
@@ -93,7 +85,7 @@
   <requiredCountAtGameStart>1</requiredCountAtGameStart>
   <canMakeRandomly>true</canMakeRandomly>
   <allowedCultures>
-    <li>BTS_Starfinders</li>
+    <li MayRequire="Ludeon.RimwWorld.Ideology">BTS_Starfinders</li>
   </allowedCultures>
   <modExtensions>
 		<li Class="BetweenTheStars.FactionGenOptions">

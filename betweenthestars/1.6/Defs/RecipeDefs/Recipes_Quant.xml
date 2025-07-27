@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="ArchoTechMakeableBase" Abstract="True">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <recipeUsers>
+                <li>DecryptionBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>11</Crafting>
+            </skillRequirements>
+            <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+            <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+    </ThingDef>
+
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_ArchoComponent</defName>
+        <label>make archotech component</label>
+        <description>Allows you to directly decrypt lost or stolen Starway data into archotech components.</description>
+        <jobString>Decrypting into archotech component.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>12000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>AncientResearchCore</li>
+                </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+        <thingDefs>
+            <li>AncientResearchCore</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <ArchoComponent>1</ArchoComponent>
+        </products>
+    </RecipeDef>
+
+    
+</Defs>
