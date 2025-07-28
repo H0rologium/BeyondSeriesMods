@@ -33,7 +33,7 @@ namespace BetweenTheStars
             Listing_Standard lst = new Listing_Standard();
 
             lst.Begin(inRect);
-            lst.CheckboxLabeled("Enable passive mode", ref settings.passiveMode, "Reequires Reload\n\nPassive mode will allow you to bypass raiding faction bases and adds generation of the structure to tiles that you settle on or set up camp on.\n\nNote that this WILL make obtaining these resources much easier, however spawning rules will still be random and require Fabrication to start");
+            lst.CheckboxLabeled("Enable passive mode", ref settings.passiveMode, "-Requires Reload-\n\nPassive mode will allow you to bypass raiding faction bases and adds generation of the structure to tiles that you settle on or set up camp on.\n\nNote that this WILL make obtaining these resources much easier, however spawning rules will still be random and require Fabrication to start\n\nENFORCEMENT RAIDS WILL STILL SPAWN IF YOU ATTEMPT TO DECRYPT THE ITEMS EARLY.");
 
             lst.End();
             base.DoSettingsWindowContents(inRect);
