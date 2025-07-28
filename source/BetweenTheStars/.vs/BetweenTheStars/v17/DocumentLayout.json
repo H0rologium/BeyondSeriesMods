@@ -7,11 +7,15 @@
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:genstep_terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\btsmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:btsmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\compproperties_researchcore_cpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\compproperties_researchcore_cpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:compproperties_researchcore_cpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BTSModSettings.cs",
+              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\BTSModSettings.cs",
+              "RelativeDocumentMoniker": "BTSModSettings.cs",
+              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\BTSModSettings.cs",
+              "RelativeToolTip": "BTSModSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:26:42.46Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "GenStep_Terminal.cs",
               "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\GenStep_Terminal.cs",
               "RelativeToolTip": "GenStep_Terminal.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T17:34:42.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InternalDefOf.cs",
               "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\InternalDefOf.cs",
               "RelativeDocumentMoniker": "InternalDefOf.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "InternalDefOf.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T17:14:58.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T17:14:58.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CompProperties_ResearchCore_CPT.cs",
               "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\CompProperties_ResearchCore_CPT.cs",
               "RelativeDocumentMoniker": "CompProperties_ResearchCore_CPT.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "CompProperties_ResearchCore_CPT.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAACCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T17:13:44.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T17:13:44.043Z"
             }
           ]
         }

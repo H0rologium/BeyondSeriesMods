@@ -6,6 +6,32 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="Make_MechResurrect"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>ShipCryptosleep</li>
+                            <li>Bioregeneration</li>
+                            <li>QuantUnderstand</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="Make_MechHeal"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>ShipCryptosleep</li>
+                            <li>Bioregeneration</li>
+                            <li>QuantUnderstand</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="Make_AnimalPulser"]/researchPrerequisites</xpath>
+                    <value>
+                        <li>Archogenetics</li>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Gun_BeamGraser"]</xpath>
                     <value>

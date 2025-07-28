@@ -13,4 +13,12 @@
             <li>AncientTerminalQuantSegment</li>
         </value>
     </Operation>
+
+    <!--Only functions when passive mode is on -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/MapGeneratorDef[defName = "Encounter"]/genSteps</xpath>
+        <value>
+            <li>AncientTerminalQuantSegment</li>
+        </value>
+    </Operation>
 </Patch>

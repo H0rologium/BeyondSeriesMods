@@ -413,5 +413,61 @@
         </skillRequirements>
     </RecipeDef>
 
+    <RecipeDef ParentName="ArchoTechMakeableBase">
+        <defName>Make_AnimalPulser</defName>
+        <label>make a animal pulser</label>
+        <description>Allows you to create animal pulsers</description>
+        <jobString>creating a pulser.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>15000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ArchoComponent</li>
+                </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Plasteel</li>
+                </thingDefs>
+                </filter>
+                <count>70</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>ComponentSpacer</li>
+                </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                <thingDefs>
+                    <li>Steel</li>
+                </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <products>
+            <PsychicAnimalPulser>1</PsychicAnimalPulser>
+        </products>
+        <researchPrerequisites>
+            <li>ShipComputerCore</li>
+            <li>QuantUnderstand</li>
+        </researchPrerequisites>
+        <skillRequirements Inherit="False">
+            <Crafting>15</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
 
+    
 </Defs>

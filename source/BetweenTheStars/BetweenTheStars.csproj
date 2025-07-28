@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BTSModSettings.cs" />
     <Compile Include="CompProperties_ResearchCore_CPT.cs" />
     <Compile Include="CompProperties_UseEffectGiveQuant.cs" />
     <Compile Include="FactionGenOptions.cs" />
