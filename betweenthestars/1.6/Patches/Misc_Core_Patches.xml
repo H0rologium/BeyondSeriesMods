@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>MinifyEverything</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Sarcophagus"]</xpath>
+                    <value>
+                        <minifiedDef>MinifiedThing</minifiedDef>
+                        <thingCategories>
+                            <li>BuildingsMisc</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Sarcophagus"]/statBases</xpath>
+                    <value>
+                        <Mass>60</Mass>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Turret_Autocannon"]</xpath>
+                    <value>
+                        <minifiedDef>MinifiedThing</minifiedDef>
+                        <thingCategories>
+                            <li>BuildingsSecurity</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Autodoor"]</xpath>
+                    <value>
+                        <minifiedDef>MinifiedThing</minifiedDef>
+                        <thingCategories>
+                            <li>BuildingsSecurity</li>
+                        </thingCategories>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Autodoor"]/statBases</xpath>
+                    <value>
+                        <Mass>15</Mass>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    
+    </Operation>
+
+</Patch>
