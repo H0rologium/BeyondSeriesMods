@@ -10,7 +10,7 @@
                 <li>FabricationBench</li>
             </recipeUsers>
             <skillRequirements>
-                <Crafting>15</Crafting>
+                <Crafting>13</Crafting>
             </skillRequirements>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
             <researchPrerequisite>AdvancedFabrication</researchPrerequisite>

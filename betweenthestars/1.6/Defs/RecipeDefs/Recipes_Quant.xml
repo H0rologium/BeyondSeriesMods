@@ -11,7 +11,7 @@
             </recipeUsers>
             <skillRequirements>
                 <Crafting>11</Crafting>
-                <Intellectual>8</Intellectual>
+                <Intellectual>6</Intellectual>
             </skillRequirements>
             <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
             <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
@@ -131,7 +131,7 @@
 
     <RecipeDef ParentName="ArchoTechMakeableBase">
         <defName>Make_MechHeal</defName>
-        <label>make a mech healer serum</label>
+        <label>make mech healer serum</label>
         <description>Allows you to create mechanoid healing serums</description>
         <jobString>creating a serum.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -184,7 +184,7 @@
 
     <RecipeDef ParentName="ArchoTechMakeableBase">
         <defName>Make_MechResurrect</defName>
-        <label>make a mech healer serum</label>
+        <label>make mech resurrector serum</label>
         <description>Allows you to create mechanoid ressurection serums</description>
         <jobString>creating a serum.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -241,7 +241,7 @@
 
     <RecipeDef ParentName="ArchoTechMakeableBase">
         <defName>Make_OrbitalBeam</defName>
-        <label>make an orbital beam targeter</label>
+        <label>make orbital beam targeter</label>
         <description>Allows you to create orbital power beam targeters</description>
         <jobString>creating a usable item.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -299,7 +299,7 @@
 
     <RecipeDef ParentName="ArchoTechMakeableBase">
         <defName>Make_ShockLance</defName>
-        <label>make a psychic shock lance</label>
+        <label>make psychic shock lance</label>
         <description>Allows you to create psychic shock lances</description>
         <jobString>creating a lance.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -357,7 +357,7 @@
 
     <RecipeDef ParentName="ArchoTechMakeableBase">
         <defName>Make_InsanityLance</defName>
-        <label>make a psychic insanity lance</label>
+        <label>make psychic insanity lance</label>
         <description>Allows you to create psychic insanity lances</description>
         <jobString>creating a lance.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -415,7 +415,7 @@
 
     <RecipeDef ParentName="ArchoTechMakeableBase">
         <defName>Make_AnimalPulser</defName>
-        <label>make a animal pulser</label>
+        <label>make animal pulser</label>
         <description>Allows you to create animal pulsers</description>
         <jobString>creating a pulser.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
