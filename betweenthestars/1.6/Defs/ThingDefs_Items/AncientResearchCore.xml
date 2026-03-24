@@ -4,7 +4,7 @@
     <ThingDef ParentName="ResourceBase">
     <defName>AncientResearchCore</defName>
     <label>ancient research core</label>
-    <description>A modified mechanoid transponder chip that seems to be altered to hold a lot more data than just mechanoid relay signals.\n\nThe hidden data can't be decrypted until we can incorporate this device into a proper machine.=</description>
+    <description>A modified mechanoid transponder chip that seems to be altered to hold a lot more data than just mechanoid relay signals. The hidden data can't be decrypted until we can incorporate this device into a proper machine.\n\nWe need to research how to jam the signals if we don't want Starway retaliating!</description>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>5</stackLimit>

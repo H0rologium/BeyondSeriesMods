@@ -43,14 +43,18 @@
 	  <autoFlee>false</autoFlee>
     <canStageAttacks>false</canStageAttacks>
 	  <naturalEnemy>false</naturalEnemy>
-    <allowedArrivalTemperatureRange>
-      <min>-42</min>
-      <max>42</max>
-    </allowedArrivalTemperatureRange>
-
+    <canRequestMilitaryAid>false</canRequestMilitaryAid>
+    <canRequestOrbitalTrader>true</canRequestOrbitalTrader>
+    <canRequestTraders>false</canRequestTraders>
+    <canGenerateQuestSites>true</canGenerateQuestSites>
     <factionIconPath>Things/World/SRY_IIcon</factionIconPath>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     
+    <arrivalLayerWhitelist>
+      <li>Surface</li>
+      <li>Orbit</li>
+    </arrivalLayerWhitelist>
+
     <colorSpectrum>
 	      <li>(132,211,105)</li>
     </colorSpectrum>
@@ -62,11 +66,11 @@
       </thingDefs>
 	  </apparelStuffFilter>
 
-    <baseTraderKinds>
+    <orbitalTraderKinds>
 		    <li>Orbital_BulkGoods</li>
         <li>Orbital_CombatSupplier</li>
         <li>Orbital_Exotic</li>
-	  </baseTraderKinds>
+	  </orbitalTraderKinds>
     
 
     <backstoryFilters>
@@ -148,16 +152,11 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.Rimworld.Ideology,Ludeon.RimWorld.Odyssey">Shipborn</li>
     </requiredMemes>
-
     <structureMemeWeights>
-      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">0</Structure_TheistEmbodied>
-      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">0</Structure_TheistAbstract>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
       <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_Archist>
-      <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginChristian>
-      <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginIslamic>
-      <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginHindu>
-      <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginBuddhist>
+      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">10</Structure_Archist>
     </structureMemeWeights>
 	
     <pawnGroupMakers>

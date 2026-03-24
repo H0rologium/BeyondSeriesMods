@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\other\\beyondseriesmods\\source\\betweenthestars\\genstep_terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:genstep_terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\other\\beyondseriesmods\\source\\betweenthestars\\compproperties_useeffectgivequant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:compproperties_useeffectgivequant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\other\\beyondseriesmods\\source\\betweenthestars\\btsmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:btsmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\other\\beyondseriesmods\\source\\betweenthestars\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompProperties_UseEffectGiveQuant.cs",
+              "DocumentMoniker": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\CompProperties_UseEffectGiveQuant.cs",
+              "RelativeDocumentMoniker": "CompProperties_UseEffectGiveQuant.cs",
+              "ToolTip": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\CompProperties_UseEffectGiveQuant.cs",
+              "RelativeToolTip": "CompProperties_UseEffectGiveQuant.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T20:25:56.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenStep_Terminal.cs",
+              "DocumentMoniker": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\GenStep_Terminal.cs",
+              "RelativeDocumentMoniker": "GenStep_Terminal.cs",
+              "ToolTip": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\GenStep_Terminal.cs",
+              "RelativeToolTip": "GenStep_Terminal.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T20:19:48.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HarmonyPatches.cs",
+              "DocumentMoniker": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\HarmonyPatches.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches.cs",
+              "ToolTip": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\HarmonyPatches.cs",
+              "RelativeToolTip": "HarmonyPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T20:19:42.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BTSModSettings.cs",
+              "DocumentMoniker": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\BTSModSettings.cs",
+              "RelativeDocumentMoniker": "BTSModSettings.cs",
+              "ToolTip": "F:\\Other\\BeyondSeriesMods\\source\\BetweenTheStars\\BTSModSettings.cs",
+              "RelativeToolTip": "BTSModSettings.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T20:18:46.213Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

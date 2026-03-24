@@ -37,8 +37,8 @@ namespace BetweenTheStars
             if (ShouldSkipMap(map)) return;
             IntVec3 spIV;
             if (!TryFindCell(map, out spIV)) return;
-            var spawnChance = UnityEngine.Random.Range(1.0f, 100.0f);
-            if (spawnChance < 29f || !InternalDefOf.Fabrication.IsFinished) { Log.Message("[BTS] Skipped terminal generation. this is normal behaviour."); return; }
+            var spawnChance = UnityEngine.Random.Range(1, 100);
+            if (spawnChance < 20 || !InternalDefOf.Fabrication.IsFinished) { Log.Message("[BTS] Skipped terminal generation. this is normal behaviour."); if (!map.ParentFaction.def.Equals(InternalDefOf.BTS_Starway)) { return; } }
             if ((checkForPassive && (map.IsPlayerHome || map.Parent is Camp)))
             {
                 GenTerminal(spIV, map);
@@ -46,7 +46,7 @@ namespace BetweenTheStars
             }
             else if (map.ParentFaction != null)
             {
-                //Redundant but garunteed to get us what we want
+                //Redundant but guaranteed to get us what we want
                 if (!map.ParentFaction.IsPlayerSafe() || !map.ParentFaction.IsPlayer) GenTerminal(spIV, map);
                 return;
             }

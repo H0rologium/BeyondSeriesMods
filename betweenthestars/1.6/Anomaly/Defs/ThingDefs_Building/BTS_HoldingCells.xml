@@ -21,8 +21,9 @@
             <ContainmentStrength>15</ContainmentStrength>
         </statBases>
         <costList>
-            <Uranium>20</Uranium>
-            <Bioferrite>100</Bioferrite>
+            <Uranium>10</Uranium>
+            <Steel>100</Steel>
+            <Bioferrite>10</Bioferrite>
         </costList>
         <comps>
         <li Class="CompProperties_EntityHolderPlatform">
