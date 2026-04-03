@@ -19,7 +19,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<statBases>
-		  <MaxHitPoints>2000</MaxHitPoints>
+		  <MaxHitPoints>250</MaxHitPoints>
 		</statBases>
 		<killedLeavings>
 		  <AncientResearchCore>1</AncientResearchCore>

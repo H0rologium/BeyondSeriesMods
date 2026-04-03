@@ -38,28 +38,30 @@ namespace BetweenTheStars
             IntVec3 spIV;
             if (!TryFindCell(map, out spIV)) return;
             var spawnChance = UnityEngine.Random.Range(1, 100);
-            if (spawnChance < 20 || !InternalDefOf.Fabrication.IsFinished) { Log.Message("[BTS] Skipped terminal generation. this is normal behaviour."); if (!map.ParentFaction.def.Equals(InternalDefOf.BTS_Starway)) { return; } }
-            if ((checkForPassive && (map.IsPlayerHome || map.Parent is Camp)))
-            {
-                GenTerminal(spIV, map);
-                return;
-            }
-            else if (map.ParentFaction != null)
-            {
-                //Redundant but guaranteed to get us what we want
-                if (!map.ParentFaction.IsPlayerSafe() || !map.ParentFaction.IsPlayer) GenTerminal(spIV, map);
-                return;
-            }
-            else
-            {
-                //Camps have a null parentfaction. makes sense.
-                if (checkForPassive) GenTerminal(spIV, map);
-                //else Log.Message("[BTS] Avoided generating terminal after all options attempted");
-                return;
-            }
 
-            //Log.Error("[BTS] Something went wrong trying to generate a landmark. We've encountered a map where this logic should not be run");
-            //return;
+            if (spawnChance >= 20)
+            {
+                if (!InternalDefOf.Fabrication.IsFinished) { Log.Message("[BTS] Skipped terminal generation. this is normal behaviour."); return; }
+
+                if ((checkForPassive && (map.IsPlayerHome || map.Parent is Camp)))
+                {
+                    GenTerminal(spIV, map);
+                    return;
+                }
+                else if (map.ParentFaction != null)
+                {
+                    //Redundant but guaranteed to get us what we want
+                    if (!map.ParentFaction.IsPlayerSafe() || !map.ParentFaction.IsPlayer) GenTerminal(spIV, map);
+                    return;
+                }
+                else
+                {
+                    //Camps and item stashes/quests can have a null parentfaction. makes sense.
+                    if (checkForPassive) GenTerminal(spIV, map);
+                    return;
+                }
+            }
+            return;
         }
 
         protected bool TryFindCell(Map map, out IntVec3 result)

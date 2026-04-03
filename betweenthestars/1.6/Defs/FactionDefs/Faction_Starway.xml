@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <FactionDef Name="BTS_StarwayBase" Abstract="True">
+    <FactionDef ParentName="FactionBase" Name="BTS_StarwayBase" Abstract="True">
     <raidLootValueFromPointsCurve>
       <points>
         <li>(35,     15)</li>
@@ -66,11 +66,17 @@
       </thingDefs>
 	  </apparelStuffFilter>
 
+    <baseTraderKinds><!--faction base trader-->
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
     <orbitalTraderKinds>
 		    <li>Orbital_BulkGoods</li>
         <li>Orbital_CombatSupplier</li>
         <li>Orbital_Exotic</li>
 	  </orbitalTraderKinds>
+    <canRequestTraders>false</canRequestTraders>
+    <canRequestMilitaryAid>false</canRequestMilitaryAid>
+    <canRequestOrbitalTrader>true</canRequestOrbitalTrader>
     
 
     <backstoryFilters>
