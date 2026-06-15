@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--<ResearchTabDef>
-        <defName>QRT</defName>
-        <label>Archotech</label>
-        <generalTitle>Archotech research projects</generalTitle>
-        <generalDescription>Dip into the shallow end of what lies beyond...</generalDescription>
-        <visibleByDefault>true</visibleByDefault>
-    </ResearchTabDef>-->
-
   <ResearchProjectDef>
     <defName>QuantUnderstand</defName>
     <label>Archotech Fundamentals</label>
@@ -25,8 +17,8 @@
     </requiredResearchFacilities>
     <researchViewX>20.20</researchViewX>
     <researchViewY>2.00</researchViewY>
-    <discoveredLetterTitle>⠀</discoveredLetterTitle>
-    <discoveredLetterText>Using the advanced sensor arrays and systems now available to you, you begin to understand what Starway was trying to hide. The data reveals itself to be studies and research into the manifestations of the entities known as Archotechs. Starway had tried and failed to understand how the technology behind their creations worked.\n\nYou sense that more data could possibly unveil some of these grand mysteries to you. In the same way you would throw a dart at a target, you could possibly try to recreate some of the ancient technology. In time.</discoveredLetterText><!--\n\nThis first foray into the unknown leaves you with thoughts behind the design of the machine itself. You can now build a replacement if you lose the original.</discoveredLetterText>-->
+    <discoveredLetterTitle>About: Getting Research Cores</discoveredLetterTitle>
+    <discoveredLetterText>Using the advanced sensor arrays and systems now available to you, you begin to understand what Starway was trying to hide. The data reveals itself to be studies and research into the manifestations of the entities known as Archotechs. Starway had tried and failed to understand how the technology behind their creations worked.\n\nYou sense that more data could possibly unveil some of these grand mysteries to you. In the same way you would throw a dart at a target, you could possibly try to recreate some of the ancient technology. In time.\n\nGameplay Effect: Quest Sites and Faction Bases will have Ancient Terminals scattered around. Destroy them, and you might find something...</discoveredLetterText><!--\n\nThis first foray into the unknown leaves you with thoughts behind the design of the machine itself. You can now build a replacement if you lose the original.</discoveredLetterText>-->
     <generalRules>
       <rulesStrings>
         <li>subject->archotech</li>

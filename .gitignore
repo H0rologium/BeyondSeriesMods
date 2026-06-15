@@ -1,5 +1,6 @@
 # Workspace
 *.code-workspace
+.vs/*
 #Debug builds
 /Source/BetweenTheStars/bin/*
 /Source/BetweenTheStars/obj/*

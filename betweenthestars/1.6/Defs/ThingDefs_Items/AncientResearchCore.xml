@@ -7,7 +7,7 @@
     <description>A modified mechanoid transponder chip that seems to be altered to hold a lot more data than just mechanoid relay signals. The hidden data can't be decrypted until we can incorporate this device into a proper machine.\n\nWe need to research how to jam the signals if we don't want Starway retaliating!</description>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <stackLimit>5</stackLimit>
+    <stackLimit>10</stackLimit>
     <graphicData>
       <texPath>Things/Item/AncientResearchCore</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -24,19 +24,7 @@
       <MarketValue>700</MarketValue>
     </statBases>
     <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
-    <allowedArchonexusCount>0</allowedArchonexusCount>
-    <comps>
-      <li Class="BetweenTheStars.CompProperties_ResearchCore_CPT">
-        <compClass>BetweenTheStars.CompUseableResearchCore</compClass>
-        <useJob>ReadAncientData</useJob>
-        <useLabel>Decrypt ancient data</useLabel>
-      </li>
-      <li Class="CompProperties_UseEffectPlaySound">
-        <soundOnUsed>MechSerumUsed</soundOnUsed>
-      </li>
-      <li Class="CompProperties_UseEffectDestroySelf" />
-      <li Class="BetweenTheStars.CompProperties_UseEffectGiveQuant" />
-    </comps>
+    <allowedArchonexusCount>10</allowedArchonexusCount>
   </ThingDef>
 
 

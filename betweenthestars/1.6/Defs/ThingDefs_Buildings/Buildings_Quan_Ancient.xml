@@ -21,9 +21,9 @@
 		<statBases>
 		  <MaxHitPoints>250</MaxHitPoints>
 		</statBases>
-		<killedLeavings>
-		  <AncientResearchCore>1</AncientResearchCore>
-		</killedLeavings>
+		<killedLeavingsRanges>
+      		<AncientResearchCore>1~3</AncientResearchCore>
+    	</killedLeavingsRanges>
 	  </ThingDef>
 	  
 </Defs>

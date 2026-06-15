@@ -25,7 +25,7 @@
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
-        <workAmount>8000</workAmount>
+        <workAmount>4000</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -42,7 +42,7 @@
         </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <ArchoComponent>1</ArchoComponent>
+            <ArchoComponent>2</ArchoComponent>
         </products>
         <skillRequirements Inherit="False">
             <Crafting>5</Crafting>

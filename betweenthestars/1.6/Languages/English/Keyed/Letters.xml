@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-    <ResearchAccessedLabel>Data Exploit</ResearchAccessedLabel>
-    <ResearchAccessed>While decrypting the data from the object has triggered an automated response system from Starway, its security is not the most robust. Once you complete the research into the fundamentals of archotech, Starway's automated systems will no longer detect you, preventing enforcement raids from happening in the future.</ResearchAccessed>
-
-    <FactionBetrayedLabel>Contract Broken</FactionBetrayedLabel>
-    <FactionBetrayed>Greetings, this is an automated message from Starway Incorporated.\n\n\nAs per the contract agreement that was signed for you, Clause 4 of the "Research Coalescence Protection Law" that is self-published and maintained by Starway has been violated by an unknown actor operating from your area. As detailed in Clause 5, you are to be put to fault for this breach of contract and of data.\n\nYou have -[Negative 3]- days to comply before Starway decides to send an enforcement squad to ensure company loyalty\n\nWe apologize for the inconvenience, and await your compliance.</FactionBetrayed>
-
-    <EnforcementSentLabel>RE: Contract Broken</EnforcementSentLabel>
-    <EnforcementSent>Greetings, this is an automated message from Starway Incorporated.\n\n\nYou have failed to comply with the regulations broken as previously discussed within the alotted time frame of -[Negative 3]- days. As such, we have no choice but to ensure the security of Starway Incorporated's data.\n\nYou have been warned.\n    -Regards,\n    Starway Incorporated</EnforcementSent>
-
+    <BTS_MS_PassiveMode>Enable Passive Mode</BTS_MS_PassiveMode>
+    <BTS_MS_PassiveModeDescription>-Requires Reload-\n\nPassive mode will allow you to bypass raiding faction bases and adds generation of the structure to tiles that you settle on or set up camp on.\n\nNote that this WILL make obtaining these resources much easier, however spawning rules will still be random and require Fabrication to start.</BTS_MS_PassiveModeDescription>
 </LanguageData>
