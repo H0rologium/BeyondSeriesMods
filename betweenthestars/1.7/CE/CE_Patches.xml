@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Gun_BeamPistol"]/tools</xpath>
+          <value>
+            <tools />
+          </value>
+        </li>
+        <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+          <defName>Gun_BeamPistol</defName>
+          <statBases />
+          <AmmoUser>
+            <ammoSet>AmmoSet_ChargedPistol</ammoSet>
+          </AmmoUser>
+          <FireModes />
+          <weaponTags>
+            <li>CE_AI_Pistol</li>
+            <li>CE_OneHandedWeapon</li>
+          </weaponTags>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Gun_BeamPistol"]/equippedStatOffsets</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_BeamPistol"]</xpath>
+            <value>
+              <equippedStatOffsets />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Gun_BeamPistol"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <MoveSpeed>-0.15</MoveSpeed>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Gun_BeamPistol"]/comps</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_BeamPistol"]</xpath>
+            <value>
+              <comps />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Gun_BeamMinigun"]/tools</xpath>
+          <value>
+            <tools>
+              <li Class="CombatExtended.ToolCE">
+                <label>barrels</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+              </li>
+            </tools>
+          </value>
+        </li>
+        <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+          <defName>Gun_BeamMinigun</defName>
+          <statBases>
+            <Bulk>10.03</Bulk>
+            <TicksBetweenBurstShots>4</TicksBetweenBurstShots>
+            <BurstShotCount>6</BurstShotCount>
+            <SightsEfficiency>1</SightsEfficiency>
+            <SwayFactor>1.33</SwayFactor>
+            <ShotSpread>0.07</ShotSpread>
+            <Recoil>1.5</Recoil>
+            <MagazineCapacity>30</MagazineCapacity>
+            <ReloadSpeed>4</ReloadSpeed>
+            <AmmoGenPerMagOverride>0</AmmoGenPerMagOverride>
+          </statBases>
+          <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <warmupTime>0.7</warmupTime>
+            <range>24</range>
+            <burstShotCount>20</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <defaultProjectile>Bullet_12x72mmCharged</defaultProjectile>
+            <soundCast>Shot_BeamRepeater</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+          </Properties>
+          <AmmoUser>
+            <ammoSet>AmmoSet_ChargedHeavy</ammoSet>
+          </AmmoUser>
+          <FireModes>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+          </FireModes>
+          <weaponTags />
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Gun_BeamMinigun"]/equippedStatOffsets</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_BeamMinigun"]</xpath>
+            <value>
+              <equippedStatOffsets />
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Gun_BeamMinigun"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <MoveSpeed>-0.3</MoveSpeed>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Gun_BeamMinigun"]/comps</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_BeamMinigun"]</xpath>
+            <value>
+              <comps />
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

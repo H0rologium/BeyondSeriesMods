@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/PawnKindDef[defName="BTS_Chairman"]/apparelRequired</xpath>
+                        <value>
+                            <apparelRequired>
+                                <li>Apparel_ArmorCataphractPrestige</li>
+                                <li>Apparel_ArmorHelmetCataphractPrestige</li>
+                            </apparelRequired>
+                        </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="Make_SC"]/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>NeuralComputation</li>
+                                <li>QuantUnderstand</li>
+                            </researchPrerequisites>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+
+</Patch>

@@ -6,6 +6,7 @@
   <author>Horologium</author>
   <supportedVersions>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <description>In addition to adding a handful of things to flesh out gameplay, this mod introduces a new faction to the mix: Starway Incorporated.\n\nSurrounded by rumors and conspiracy, this company has spread across a large portion of the galaxy in the search of something. They've dabbled with the tech they have found, resulting in both successes and byproducts finding their way all around the Rim.</description>
 
@@ -40,6 +41,21 @@
       <li>kentington.saveourship2</li>
       <li>CETeam.CombatExtended</li>
     </v1.6>
+    <v1.7>
+      <li>RH2.Faction.VOID</li>
+      <li>brrainz.harmony</li>
+      <li>Ludeon.Rimworld.Core</li>
+      <li>Ludeon.Rimworld.Ideology</li>
+      <li>Ludeon.Rimworld.Royalty</li>
+      <li>Ludeon.Rimworld.Anomaly</li>
+      <li>Ludeon.Rimworld.Biotech</li>
+      <li>Ludeon.Rimworld.Odyssey</li>
+      <li>cyanobot.OncaAndUncia</li>
+      <li>nakomaru.carrygenes</li>
+      <li>erdelf.MinifyEverything</li>
+      <li>kentington.saveourship2</li>
+      <li>CETeam.CombatExtended</li>
+    </v1.7>
   </loadAfterByVersion>
 
   <incompatibleWithByVersion>

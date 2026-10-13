@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <BTS_MS_PassiveMode>Enable Passive Mode</BTS_MS_PassiveMode>
+    <BTS_MS_PassiveModeDescription>-Requires Reload-\n\nPassive mode will allow you to bypass raiding faction bases and adds generation of the structure to tiles that you settle on or set up camp on.\n\nNote that this WILL make obtaining these resources much easier, however spawning rules will still be random and require Fabrication to start.</BTS_MS_PassiveModeDescription>
+</LanguageData>

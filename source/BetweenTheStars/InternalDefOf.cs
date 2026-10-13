@@ -19,11 +19,8 @@ namespace BetweenTheStars
         public static ResearchProjectDef Fabrication;
 
         public static ThingDef ArchoComponent;
-
         public static ResearchProjectDef QuantUnderstand;
-
         public static FactionDef BTS_Starway;
-
         public static PawnKindDef BTS_Frontierman;
     }
 }

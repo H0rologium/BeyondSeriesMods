@@ -12,9 +12,6 @@
       <li>ShipSensorCluster</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>Ship_SensorCluster</li>
-    </requiredResearchFacilities>
     <researchViewX>20.20</researchViewX>
     <researchViewY>2.00</researchViewY>
     <discoveredLetterTitle>About: Getting Research Cores</discoveredLetterTitle>

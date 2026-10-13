@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+     <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VanometricPowerCell"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+                        <value>
+                            <basePowerConsumption>-1700</basePowerConsumption>
+                        </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    
+</Patch>

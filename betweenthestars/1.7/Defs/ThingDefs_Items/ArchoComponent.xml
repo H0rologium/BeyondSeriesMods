@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+    <defName>ArchoComponent</defName>
+    <label>archotech component</label>
+    <description>a feeble attempt to recreate technology of the archotechs. Its human-made quality means it can only be used in certain projects.</description>
+    <graphicData>
+      <texPath>Things/Item/ArchoComponent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <category>Item</category>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <Flammability>0.3</Flammability>
+      <MarketValue>1000</MarketValue>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <allowedArchonexusCount>5</allowedArchonexusCount>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>15</stackLimit>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <allowedArchonexusCount>5</allowedArchonexusCount>
+    
+    </ThingDef>
+
+</Defs>
