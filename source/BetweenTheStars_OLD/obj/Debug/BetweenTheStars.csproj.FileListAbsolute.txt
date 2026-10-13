@@ -33,3 +33,6 @@ F:\Modding\BeyondSeriesMods\source\BetweenTheStars\obj\Debug\BetweenTheStars.csp
 F:\Modding\BeyondSeriesMods\source\BetweenTheStars\obj\Debug\BetweenTheStars.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\betweenthestars\1.6\Assemblies\BetweenTheStars.dll
 F:\Modding\BeyondSeriesMods\source\BetweenTheStars\obj\Debug\BetweenT.71168DFD.Up2Date
+F:\Modding\BeyondSeriesMods\source\BetweenTheStars_OLD\obj\Debug\BetweenTheStars.csproj.AssemblyReference.cache
+F:\Modding\BeyondSeriesMods\source\BetweenTheStars_OLD\obj\Debug\BetweenTheStars.csproj.CoreCompileInputs.cache
+F:\Modding\BeyondSeriesMods\source\BetweenTheStars_OLD\obj\Debug\BetweenTheStars.dll

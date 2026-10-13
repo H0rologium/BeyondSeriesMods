@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\",
+  "WorkspaceRootPath": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars\\btsmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|f:\\modding\\beyondseriesmods\\source\\betweenthestars_old\\btsmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:btsmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\factiongenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\factiongenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:factiongenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\genstep_terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\genstep_terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38878FD5-EF8E-47EB-98DC-272F3E09D4F2}|BetweenTheStars.csproj|solutionrelative:genstep_terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,50 +32,47 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HarmonyPatches.cs",
-              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\HarmonyPatches.cs",
+              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\HarmonyPatches.cs",
               "RelativeDocumentMoniker": "HarmonyPatches.cs",
-              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\HarmonyPatches.cs",
+              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\HarmonyPatches.cs",
               "RelativeToolTip": "HarmonyPatches.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T01:27:40.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T01:27:40.241Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FactionGenOptions.cs",
-              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\FactionGenOptions.cs",
+              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\FactionGenOptions.cs",
               "RelativeDocumentMoniker": "FactionGenOptions.cs",
-              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\FactionGenOptions.cs",
+              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\FactionGenOptions.cs",
               "RelativeToolTip": "FactionGenOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T01:23:37.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T01:23:37.493Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GenStep_Terminal.cs",
-              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\GenStep_Terminal.cs",
+              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\GenStep_Terminal.cs",
               "RelativeDocumentMoniker": "GenStep_Terminal.cs",
-              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\GenStep_Terminal.cs",
+              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\GenStep_Terminal.cs",
               "RelativeToolTip": "GenStep_Terminal.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T01:23:08.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T01:23:08.587Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BTSModSettings.cs",
-              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\BTSModSettings.cs",
+              "DocumentMoniker": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\BTSModSettings.cs",
               "RelativeDocumentMoniker": "BTSModSettings.cs",
-              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars\\BTSModSettings.cs",
+              "ToolTip": "F:\\Modding\\BeyondSeriesMods\\source\\BetweenTheStars_OLD\\BTSModSettings.cs",
               "RelativeToolTip": "BTSModSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T20:18:46.213Z",
               "EditorCaption": ""
